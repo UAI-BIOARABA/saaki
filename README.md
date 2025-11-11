@@ -3,6 +3,11 @@
 
 > **Plataforma de desarrollo e investigación con robot humanoide Unitree G1 EDU U3**  
 
+## 📚 Documentación 
+
+- [🏠 Inicio del Wiki](/wiki/_InicioWiki_.md)
+
+
 ## 👥 Equipo del Proyecto
 <!-- [TODO] Revisar -->
 - **Juan Fernández**  
@@ -25,11 +30,6 @@
 - 🎓 **Formación** de estudiantes en tecnologías robóticas avanzadas  
 - 💡 **Innovación** en control y programación de robots humanoides
 - 🤝 **Colaboración** interinstitucional en proyectos tecnológicos
-
-
-## 📚 Documentación 
-
-- [🏠 Inicio del Wiki](/wiki/_InicioWiki_.md)
 
 
 ## 📅 Cronograma del Proyecto
