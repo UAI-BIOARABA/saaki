@@ -5,7 +5,7 @@
 
 ## 📚 Documentación 
 
-- [🏠 Inicio del Wiki](/wiki/_InicioWiki_.md)
+- [🏠 Wiki](/wiki/_InicioWiki_.md)
 
 
 ## 👥 Equipo del Proyecto
