@@ -8,7 +8,10 @@
 - [⚡ Android Studio - Proyecto app](/wiki/AndroidStudio__ProyectoApp.md)
 
 ### 🤖 **Robot Unitree G1**
+- [🔌 Unitree - Development Guide](https://support.unitree.com/home/en/G1_developer/)
 - [🔌 Manual www.docs.quadruped.de](/wiki/UnitreeG1_docs/00_Readme.md)
+- [📱 Official App](/wiki/UnitreeG1_OfficialApp.md)
+
 
 <!-- [PENDIENTE] Revisar y completar
 

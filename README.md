@@ -3,6 +3,8 @@
 
 > **Plataforma de desarrollo e investigación con robot humanoide Unitree G1 EDU U3**  
 
+<img src="media/photo_10_2025-11-12_11-25-05.jpg" alt="G1 BIOARABA" style="width: 50%; display: block; margin: 0 auto;">
+
 ## 📚 Documentación 
 
 - [🏠 Wiki](/wiki/_InicioWiki_.md)
