@@ -9,6 +9,9 @@
 
 - [🏠 Wiki](/wiki/_InicioWiki_.md)
 
+## 🔗 Repositorios conectados
+- [🔗 EncuestasSaaki - Github](https://github.com/andoni92/EncuestasSaaki)
+
 
 ## 👥 Equipo del Proyecto
 <!-- [TODO] Revisar -->
