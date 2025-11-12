@@ -3,7 +3,7 @@
 
 > **Plataforma de desarrollo e investigación con robot humanoide Unitree G1 EDU U3**  
 
-<img src="media/photo_10_2025-11-12_11-25-05.jpg" alt="G1 BIOARABA" style="width: 50%; display: block; margin: 0 auto;">
+<img src="wiki/media/photo_10_2025-11-12_11-25-05.jpg" alt="G1 BIOARABA" style="width: 50%; display: block; margin: 0 auto;">
 
 ## 📚 Documentación 
 
@@ -40,7 +40,7 @@
 | #   | Fase                                  | Actividad                                           | Fecha Inicio | Fecha Fin  | Estado       | Progreso        |
 | --- | ------------------------------------- | --------------------------------------------------- | ------------ | ---------- | ------------ | --------------- |
 | 1.  | **Android Studio**                    | Configuración de Android Studio en Windows 11       | 16/09/2025   | 17/11/2025 | ✅ Completado | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% |
-| 1.  | **APP**                               | APP para recogida de 2 encuestas                    | 16/09/2025   | 17/11/2025 | ✅ Completado | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% |
+| 1.  | **APP**                               | APP para recogida de 2 encuestas                    | 16/09/2025   | 17/11/2025 | 🔄 En curso   | 🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ 90%  |
 | 2.  | **PYTHON**                            | Instalacion de Miniconda para Python                | 16/09/2025   | 17/11/2025 | ✅ Completado | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% |
 | 3.  | **WSL**                               | Configuración de WSL en Windows 11                  | 16/09/2025   | 17/11/2025 | 🔄 En curso   | 🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜ 50%  |
 | 4.  | **UBUNTU**                            | Configuración Ubuntu con dualboot Windows 11        | 07/11/2025   | 07/11/2025 | ✅ Completado | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% |
