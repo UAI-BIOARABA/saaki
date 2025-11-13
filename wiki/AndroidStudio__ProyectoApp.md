@@ -116,3 +116,54 @@ File → Manage IDE Settings → Import Settings...
 ![Laburpena_B](media/app/eu-4-resumenb.png)
 
 ---
+
+## 💾 Cómo se guardan los datos
+
+Por motivos como facilidad de lectura y edición, simplicidad en el almacenamiento o exportación y análisis de respuestas, esta app almacena los datos de usuarios y las respuestas a las encuestas en **formatos CSV**.
+
+Para guadar los archivos usamos:
+
+```Kotlin
+val file = File(requireContext().getExternalFilesDir(null), "usuarios.csv")
+```
+
+Entonces, los archivos se almacenan en el almacenamiento privado externo de la app, en la siguiente ruta:
+
+```
+/storage/emulated/0/Android/data/com.example.encuestassaaki/files/
+```
+
+Dentro de esa carpeta se encontrarán los siguientes archivos:
+
+```
+usuaios.csv
+encuesta_a.csv
+encuesta_b.csv
+us.bak (backup de usuarios)
+ea.bak (backup de encuestas_a)
+eb.bak (backup de encuestas_b)
+```
+
+Ya que nuestro dispositivo ustiliza Android 6.0, podemos acceder a estos archivos desde el propio explorador de archivos de la tablet, lo cual simplifica mucho el acceso a los datos y no necesitamos añadir funcionalidades para exportarlos.
+
+---
+
+## 💾 Cómo se ven los datos almacenados
+
+Los datos se almacenan de la siguiente forma en los archivos CSV:
+
+### Usuarios
+![Usuarios](media/app/datos-usuarios.png)
+
+### Encuesta A
+![Encuesta_A](media/app/datos-encuesta_a.png)
+
+### Encuesta B
+![Encuesta_B](media/app/datos-encuesta_b.png)
+
+---
+
+### 🚨 No almacenamos emoticonos, almacenamos numeros en la escala de 1 a 5 🚨
+### 🚨 Los datos se almacenan en castellano independientemente del idioma seleccionado 🚨
+
+---
