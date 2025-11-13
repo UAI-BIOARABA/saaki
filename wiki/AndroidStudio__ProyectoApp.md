@@ -58,3 +58,61 @@ File → Manage IDE Settings → Import Settings...
 ```
 
 ---
+
+## 📸 Imagenes de la APP
+
+### 🟥🟨🟥 CASTELLANO 
+
+#### Inicio
+![Inicio](media/app/es-0-inicio.png)
+
+#### Introducción de datos
+![Introducir_datos](media/app/es-1-datos.png)
+
+#### Selección de encuesta
+![Seleccionar_encuesta](media/app/es-2-seleccionarencuesta.png)
+
+#### Encuesta A
+![Encuesta_A_1](media/app/es-3-encuestaa1.png)
+![Encuesta_A_2](media/app/es-3-encuestaa2.png)
+![Encuesta_A_3](media/app/es-3-encuestaa3.png)
+
+#### Resumen A
+![Resumen_A](media/app/es-4-resumena.png)
+
+#### Encuesta B
+![Encuesta_B_1](media/app/es-3-encuestab1.png)
+![Encuesta_B_2](media/app/es-3-encuestab2.png)
+![Encuesta_B_3](media/app/es-3-encuestab3.png)
+
+#### Resumen B
+![Resumen_B](media/app/es-4-resumenb.png)
+
+###  ⬜🟩🟥 EUSKARA 
+
+#### Hasiera
+![Hasiera](media/app/eu-0-inicio.png)
+
+#### Datuak sartzea
+![Sartu_datuak](media/app/eu-1-datos.png)
+
+#### Inkestaren hautaketa
+![Hautatu_inkesta](media/app/eu-2-seleccionarencuesta.png)
+
+#### Inkesta A
+![Inkesta_A_1](media/app/eu-3-encuestaa1.png)
+![Inkesta_A_2](media/app/eu-3-encuestaa2.png)
+![Inkesta_A_3](media/app/eu-3-encuestaa3.png)
+
+#### Laburpena A
+![Laburpena_A](media/app/eu-4-resumena.png)
+
+#### Inkesta B
+![Inkesta_B_1](media/app/eu-3-encuestab1.png)
+![Inkesta_B_2](media/app/eu-3-encuestab2.png)
+![Inkesta_B_3](media/app/eu-3-encuestab3.png)
+
+#### Laburpena B
+![Laburpena_B](media/app/eu-4-resumenb.png)
+
+---
