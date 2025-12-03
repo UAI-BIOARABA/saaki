@@ -12,7 +12,7 @@ Asegúrate de tener actualizado tu sistema:
 sudo apt update && sudo apt upgrade -y
 ```
 
-Instala algunas utilidad**configurar todas las dependencias necesarias** y **garantizar que el entorno de desarrollo sea completamente reproducible**es base:
+Instala algunas utilidades base:
 
 ```bash
 sudo apt install wget unzip git curl -y
