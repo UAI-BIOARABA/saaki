@@ -2,7 +2,7 @@
 
 ## Documentación completa para el robot humanoide Unitree G1
 
-[www.docs.quadruped.de](www.docs.quadruped.de)
+- [Quadruped Robotics - Manual G1](https://www.docs.quadruped.de/projects/g1/html/index.html#)
 
 ---
 
