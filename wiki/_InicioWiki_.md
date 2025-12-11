@@ -2,18 +2,18 @@
 
 > **Documentación completa del proyecto de investigación con robot humanoide Unitree G1 EDU U3**  
 
+## 💻 **Desarrollo**
 
-### 💻 **Desarrollo**
 - [⚡ Android Studio - Instalación](/wiki/AndroidStudio__Instalacion.md)
 - [⚡ Android Studio - Proyecto app](/wiki/AndroidStudio__ProyectoApp.md)
 - [⚡ Isaac Sim/Lab - Instalación](/wiki/IsaacSim__Instalacion.md)
 
-### 🤖 **Robot Unitree G1**
+## 🤖 **Robot Unitree G1**
+
 - [🔌 Unitree - Development Guide](https://support.unitree.com/home/en/G1_developer/)
 - [🔌 Manual www.docs.quadruped.de](/wiki/UnitreeG1_docs/00_Readme.md)
 - [📱 Official App](/wiki/UnitreeG1_OfficialApp.md)
 - [🦾 Desmontar mano DEX-3](/wiki/Desmontar_Manos_DEX3.md)
-
 
 <!-- [PENDIENTE] Revisar y completar
 

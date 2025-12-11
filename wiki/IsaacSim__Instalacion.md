@@ -8,7 +8,7 @@ Este documento describe **cómo instalar Isaac Sim**, **configurar todas las dep
 
 Asegúrate de tener actualizado tu sistema:
 
-```bash
+``` bash
 sudo apt update && sudo apt upgrade -y
 ```
 

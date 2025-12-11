@@ -1,6 +1,6 @@
 # 🤖 Unitree G1 Documentation
 
-**Documentación completa para el robot humanoide Unitree G1**
+## Documentación completa para el robot humanoide Unitree G1
 
 [www.docs.quadruped.de](www.docs.quadruped.de)
 
@@ -30,6 +30,7 @@
 ## ⚠️ Advertencias de Seguridad
 
 > **IMPORTANTE**: El robot G1 es un sistema complejo y potente. Siempre:
+>
 > - Mantén una distancia segura durante la operación
 > - Sigue los procedimientos de apagado de emergencia
 > - Lee toda la documentación antes de operar
@@ -37,9 +38,9 @@
 
 ---
 
-*📅 Última actualización: Febrero 2025*  
----
+## 📅 Última actualización: Febrero 2025*
 
-**🔗 Enlaces Externos**
+### 🔗 Enlaces Externos
+
 - [Sitio Web de Unitree Robotics](https://www.unitree.com/)
 - [Documentación Oficial](https://www.docs.quadruped.de/)

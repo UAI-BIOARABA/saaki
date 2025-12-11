@@ -48,16 +48,19 @@ android-studio
    👉 [https://developer.android.com/studio](https://developer.android.com/studio)
 
 2. Extrae el archivo descargado:
+
    ```bash
    tar -xvf android-studio-*-linux.tar.gz
    ```
 
 3. Mueve la carpeta a `/opt`:
+
    ```bash
    sudo mv android-studio /opt/
    ```
 
 4. Inicia Android Studio:
+
    ```bash
    /opt/android-studio/bin/studio.sh
    ```
@@ -73,6 +76,7 @@ sudo apt install openjdk-17-jdk -y
 ```
 
 Verifica la instalación:
+
 ```bash
 java -version
 ```
@@ -101,12 +105,14 @@ sudo adduser $USER kvm
    - Descarga los **Build-tools**
    - Instala el **Android Emulator**
 3. Verifica las herramientas desde:
-   ```
+
+   ``` Android Studio
    Tools → SDK Manager
    Tools → AVD Manager
    ```
 
 Recomendado instalar:
+
 - ✅ Android SDK Platform
 - ✅ Android SDK Build-Tools
 - ✅ Android Emulator
@@ -182,22 +188,27 @@ git config --global user.email tuemail@ejemplo.com
 ## 📦 Estructura del proyecto y dependencias
 
 ### 📁 `gradle-wrapper.properties`
+
 Contiene la versión de Gradle usada:
 
-```
+``` files
 distributionUrl=https\://services.gradle.org/distributions/gradle-8.7-bin.zip
 ```
 
 ### 📁 `build.gradle` (raíz)
+
 Define versiones de plugins y Kotlin:
+
 ```gradle
 classpath("com.android.tools.build:gradle:8.7.0")
 classpath(kotlin("gradle-plugin", version = "1.9.24"))
 ```
 
 ### 📁 `app/build.gradle`
+
 Define versiones del SDK y librerías:
-```gradle
+
+``` gradle
 android {
     compileSdk = 34
 
@@ -223,5 +234,3 @@ dependencies {
 - [Kotlin for Android](https://developer.android.com/kotlin)
 - [Gradle Build System](https://gradle.org/)
 - [Android Virtual Device Manager](https://developer.android.com/studio/run/managing-avds)
-
----

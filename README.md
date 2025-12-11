@@ -3,15 +3,15 @@
 
 > **Plataforma de desarrollo e investigación con robot humanoide Unitree G1 EDU U3**  
 
-<img src="wiki/media/foto_bienvenida.jpg" alt="G1 BIOARABA" style="width: 50%; display: block; margin: 0 auto;">
+![Bienvenida](wiki/media/otros/foto_bienvenida.jpg)
 
 ## 📚 Documentación
 
 - [🏠 Wiki](/wiki/_InicioWiki_.md)
 
 ## 🔗 Repositorios conectados
-- [🔗 EncuestasSaaki - Github](https://github.com/andoni92/EncuestasSaaki)
 
+- [🔗 EncuestasSaaki - Github](https://github.com/andoni92/EncuestasSaaki)
 
 ## 👥 Equipo del Proyecto
 <!-- [TODO] Revisar -->
@@ -26,7 +26,6 @@
   🏫 [Universidad del País Vasco UPV/EHU](https://www.ehu.eus/es/web/graduak/grado-ingenieria-informatica-de-gestion-y-sistemas-de-informacion-alava)  
   💻 *Desarrollo técnico y documentación*
 
-
 <!-- [TODO] Revisar y definir los objetivos del proyecto -->
 
 ## 🎯 Objetivos del Proyecto
@@ -35,7 +34,6 @@
 - 🎓 **Formación** de estudiantes en tecnologías robóticas avanzadas  
 - 💡 **Innovación** en control y programación de robots humanoides
 - 🤝 **Colaboración** interinstitucional en proyectos tecnológicos
-
 
 ## 📅 Cronograma del Proyecto
 <!-- [PENDIENTE] Rehacer completa, solo ejemplo, revisar fechas -->
@@ -68,4 +66,3 @@
 | 24. | **Navegación en interiores**          |                                                     |              |            | 🔮 Futuro     |                 |
 | 25. | **Programación del mando**            |                                                     |              |            | 🔮 Futuro     |                 |
 | 26. | **Movimientos quirúrgicos**           |                                                     |              |            | 🔮 Futuro     |                 |
-

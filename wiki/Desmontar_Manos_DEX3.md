@@ -4,8 +4,9 @@ Este documento describe **cómo desmontar las manos DEX3** del robot humanoide U
 
 ---
 
-### 🚨 APAGAR EL ROBOT ANTES DE EMPEZAR 🚨
-### 🚨 NO REALIZAR NUNCA ESTE PROCESO CON EL ROBOT EN FUNCIONAMIENTO 🚨
+## 🚨 APAGAR EL ROBOT ANTES DE EMPEZAR 🚨
+
+## 🚨 NO REALIZAR NUNCA ESTE PROCESO CON EL ROBOT EN FUNCIONAMIENTO 🚨
 
 ---
 
@@ -65,5 +66,3 @@ Así quedaría la mano retirada visto desde atrás.
 Repetimos el proceso para la mano derecha y al terminar volvemos a colocar la carcasa trasera y las manos de goma si lo deseamos.
 
 ![Paso9](media/desmontaje/step9.JPEG)
-
----
