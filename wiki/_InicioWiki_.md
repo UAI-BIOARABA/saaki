@@ -4,16 +4,17 @@
 
 ## 💻 **Desarrollo**
 
+- [⚡ Repositorios G1 - Guía](/wiki/RepositoriosG1__Guia.md)
+- [⚡ Isaac Sim/Lab - Instalación](/wiki/IsaacSim__Instalacion.md)
 - [⚡ Android Studio - Instalación](/wiki/AndroidStudio__Instalacion.md)
 - [⚡ Android Studio - Proyecto app](/wiki/AndroidStudio__ProyectoApp.md)
-- [⚡ Isaac Sim/Lab - Instalación](/wiki/IsaacSim__Instalacion.md)
 
 ## 🤖 **Robot Unitree G1**
 
 - [🔌 Unitree - Development Guide](https://support.unitree.com/home/en/G1_developer/)
 - [🔌 Manual www.docs.quadruped.de](/wiki/UnitreeG1_docs/00_Readme.md)
 - [📱 Official App](/wiki/UnitreeG1_OfficialApp.md)
-- [🦾 Desmontar mano DEX-3](/wiki/Desmontar_Manos_DEX3.md)
+- [🦾 Desmontar mano DEX-3](/wiki/ManosDEX3__Desmontaje.md)
 
 <!-- [PENDIENTE] Revisar y completar
 
