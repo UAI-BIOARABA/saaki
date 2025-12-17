@@ -45,13 +45,13 @@
 | 3.  | **PYTHON**                            | Instalacion de Miniconda para Python                | 17/09/2025   | 17/09/2025 | ✅ Completado | 🟩🟩🟩🟩🟩 100% |
 | 4.  | **WSL**                               | Configuración de WSL en Windows 11 (NO NOS VALE)    | 16/10/2025   | 07/11/2025 | ✅ Completado | 🟩🟩🟩🟩🟩 100% |
 | 5.  | **UBUNTU**                            | Configuración Ubuntu con dualboot Windows 11        | 07/11/2025   | 07/11/2025 | ✅ Completado | 🟩🟩🟩🟩🟩 100% |
-| 6.  | **WIKI**                              | Generacion de wiki y repositorios en Github privado | 11/11/2025   | 01/07/2026 | 🔄 En curso   | 🟨🟨🟨⬜⬜ 50%  |
+| 6.  | **WIKI**                              | Generacion de wiki y repositorios en Github privado | 11/11/2025   | 26/06/2026 | 🔄 En curso   | 🟨🟨🟨⬜⬜ 50%  |
 | 7.  | **REAJUSTES**                         | Reinstalacion de miniconda, python y Android Studio | 12/11/2025   | 14/11/2025 | ✅ Completado | 🟩🟩🟩🟩🟩 100% |
 | 8.  | **ROS2**                              | Instalacion y pruebas                               | 20/11/2025   | 21/11/2025 | ✅ Completado | 🟩🟩🟩🟩🟩 100% |
 | 9.  | **ISAACSIM**                          | Instalacion de Isaac SIM                            | 21/11/2025   | 26/11/2025 | ✅ Completado | 🟩🟩🟩🟩🟩 100% |
 | 10. | **ISAACLAB**                          | Instalacion de Isaac LAB                            | 26/11/2025   | 28/11/2025 | ✅ Completado | 🟩🟩🟩🟩🟩 100% |
 | 11. | **Aprender Isaac Sim/Lab**            | Aprender a usar Isaac Sim/Lab y a aplicarlo al G1   | 03/12/2025   | 01/07/2026 | 🔄 En curso   | 🟨🟨⬜⬜⬜ 20%  |
-| 12. | **Investigar repositorios Unitree**   | Investigar y usar repos de Unitree (sdk, ROS2...)   | 03/12/2025   | 01/07/2026 | 🔄 En curso   | 🟨🟨⬜⬜⬜ 20%  |
+| 12. | **Investigar repositorios Unitree**   | Investigar y usar repos de Unitree (sdk, ROS2...)   | 03/12/2025   | 26/06/2026 | 🔄 En curso   | 🟨🟨⬜⬜⬜ 20%  |
 | 13. | **Conexión G1**                       | Lograr conectarnos sin errores al robot             | 18/12/2025   | 19/12/2025 | ⏳ Pendiente  | 🟥⬜⬜⬜⬜ 0%   |
 | 14. | **LEDs en la cara**                   | Cambio del color de los LEDs                        | 19/12/2025   | 26/12/2025 | ⏳ Pendiente  | 🟥⬜⬜⬜⬜ 0%   |
 | 15. | **Sonido**                            | Reproducir sonido                                   | 26/12/2025   | 30/01/2026 | ⏳ Pendiente  | 🟥⬜⬜⬜⬜ 0%   |

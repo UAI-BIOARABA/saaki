@@ -4,6 +4,13 @@
 
 ## 💻 **Desarrollo**
 
+<!-- TODO: crear guia sdk
+     TODO: crear guia Mujoco
+     TODO: crear guia ROS2
+     TODO: completar guia Isaac Sim/Lab
+     TODO: plantear organización workspace, github...
+ -->  
+
 - [⚡ Repositorios G1 - Guía](/wiki/RepositoriosG1__Guia.md)
 - [⚡ Isaac Sim/Lab - Instalación](/wiki/IsaacSim__Instalacion.md)
 - [⚡ Android Studio - Instalación](/wiki/AndroidStudio__Instalacion.md)
