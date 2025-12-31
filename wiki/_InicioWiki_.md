@@ -11,17 +11,17 @@
      TODO: plantear organización workspace, github...
  -->  
 
-- [⚡ Repositorios G1 - Guía](/wiki/RepositoriosG1__Guia.md)
-- [⚡ Isaac Sim/Lab - Instalación](/wiki/IsaacSim__Instalacion.md)
-- [⚡ Android Studio - Instalación](/wiki/AndroidStudio__Instalacion.md)
-- [⚡ Android Studio - Proyecto app](/wiki/AndroidStudio__ProyectoApp.md)
+- [⚡ Guía Repositorios Oficiales UnitreeRobotics (G1)](02_Repositorios_UnitreeRobotics/)
+- [⚡ Guía APPS Android](03_Android_Apps/)
+- [⚡ Guía Isaac Sim/Lab](04_Isaac_Sim_Lab/)
 
 ## 🤖 **Robot Unitree G1**
 
 - [🔌 Unitree - Development Guide](https://support.unitree.com/home/en/G1_developer/)
 - [🔌 Manual www.docs.quadruped.de](/wiki/UnitreeG1_docs/00_Readme.md)
-- [📱 Official App](/wiki/UnitreeG1_OfficialApp.md)
-- [🦾 Desmontar mano DEX-3](/wiki/ManosDEX3__Desmontaje.md)
+- [📱 Documentación oficial](00_UnitreeG1_Oficial/)
+- [📱 Official App](/wiki/00_UnitreeG1_Oficial/UnitreeG1_OfficialApp.md)
+- [🦾 Guías montaje y desmontaje](01_Montajes_Desmontajes/)
 
 <!-- [PENDIENTE] Revisar y completar
 

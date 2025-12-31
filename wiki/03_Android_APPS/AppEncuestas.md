@@ -20,7 +20,7 @@ Asegúrate de tener instalado Android Studio en tu sistema conforme a la guía p
 3. Clonar el proyecto:
 
    ```bash
-   git clone https://github.com/andoni92/EncuestasSaaki.git
+   git clone https://github.com/UAI-BIOARABA/EncuestasSaaki.git
    ```
 
 4. Abrir el proyecto en Android Studio

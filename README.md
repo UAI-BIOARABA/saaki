@@ -11,7 +11,7 @@
 
 ## 🔗 Repositorios conectados
 
-- [🔗 EncuestasSaaki - Github](https://github.com/andoni92/EncuestasSaaki)
+- [🔗 EncuestasSaaki - Github](https://github.com/UAI-BioAraba/EncuestasSaaki)
 
 ## 👥 Equipo del Proyecto
 <!-- [TODO] Revisar -->
@@ -30,7 +30,7 @@
 
 ## 🎯 Objetivos del Proyecto
 
-- 🔬 **Investigación** en robótica humanoides aplicada a salud
+- 🔬 **Investigación** en robótica humanoide aplicada a salud
 - 🎓 **Formación** de estudiantes en tecnologías robóticas avanzadas  
 - 💡 **Innovación** en control y programación de robots humanoides
 - 🤝 **Colaboración** interinstitucional en proyectos tecnológicos
