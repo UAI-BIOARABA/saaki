@@ -1,4 +1,4 @@
-# 🧩 Guía de repositorios oficiales de Unitree Robotics (G1-edu)
+# 🧩 Guía de repositorios oficiales de Unitree Robotics
 
 Este documento es una breve guía sobre los diferentes **repositorios oficiales de Unitree Robotics**, centrada en los que se utilizan para el robot humanoide **Unitree G1 EDU**. Explicaremos **para que sirven, donde se usarán y que relacion tienen entre ellos (los que la tengan)**, ya que al principio puede parecer confuso entender cuales nos interesan o necesitamos instalar.
 

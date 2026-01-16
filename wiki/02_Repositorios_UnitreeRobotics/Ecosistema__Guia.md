@@ -1,6 +1,6 @@
-# 🧩 Guía del ecosistema de desarrollo de software para el Unitree G1 EDU
+# 🧩 Guía del ecosistema de desarrollo de software
 
-Este documento es una explicación del **ecosistema de desarrollo de software personalizado para el G1**. Explicaremos **las áreas de desarrollo que hay y para que sirve cada una**, de esta forma sabremos por donde desarrollar según la capacidad que queramos dotarle.
+Este documento es una explicación del **ecosistema de desarrollo de software personalizado para el Unitree G1 EDU**. Explicaremos **las áreas de desarrollo que hay y para que sirve cada una**, de esta forma sabremos por donde desarrollar según la capacidad que queramos dotarle.
 
 Principalmente encontramos 5 áreas de desarrollo, unas dentro del apartado más clásico y otras más "modernas".
 
