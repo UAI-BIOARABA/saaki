@@ -2,7 +2,7 @@
 
 ## **Plataforma de desarrollo e investigación con robótica humanoide**  
 
-<img src="wiki/media/otros/foto_bienvenida.jpeg" alt="Bienvenida" width="512"/>
+<img src="wiki/media/otros/foto_bienvenida.jpeg" alt="Bienvenida" width="720"/>
 
 > Robot humanoide Unitree G1 EDU U3, alias **Saaki**
 
@@ -56,15 +56,16 @@
 | 10. | **Repositorio unitree_ros2**          | Solucionar repositorio que rompe otros              | 15/12/2025   | 18/12/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
 | 11. | **Probar unitree_ros2**               | Probarlo y entenderlo                               | 18/12/2025   | 25/12/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
 | 12. | **Conexión G1**                       | Lograr conectarnos sin errores al robot             | 07/01/2026   | 08/01/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 13. | **Sonido**                            | Reproducir sonido                                   | 08/01/2026   | 30/01/2026 | 🔄 En curso   | 🟨🟨🟨🟨 75%  |
-| 14. | **Movimiento programado**             | Movimiento de partes                                | 08/01/2026   | 13/02/2026 | 🔄 En curso   | 🟨🟨🟨🟨 75%  |
-| 15. | **Movimiento fino**                   | Mover dedos de manos                                | 13/02/2026   | 13/03/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
-| 16. | **Visión por color**                  | Reconocimiento de colores                           | 13/03/2026   | 17/04/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
-| 17. | **Visión por forma**                  | Reconocimiento de formas                            | 17/04/2026   | 29/05/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
-| 18. | **Manipulación**                      | Coger objeto según forma y color                    | 29/05/2026   | 13/06/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
-| 19. | **Percepción avanzada**               | Reconocer objetos                                   | 13/06/2026   | 01/07/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
-| 20. | **Reconocimiento por voz**            |                                                     |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
-| 21. | **Respuesta a instrucciones por voz** |                                                     |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
-| 22. | **Navegación en interiores**          |                                                     |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
-| 23. | **Programación del mando**            |                                                     |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
-| 24. | **Movimientos quirúrgicos**           |                                                     |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
+| 13. | **Low level control**                 | Lograr una DEMO funcional en el robot a bajo nivel  | 08/01/2026   | 15/01/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
+| 14. | **High level control**                | Lograr una DEMO funcional en el robot a alto nivel  | 15/01/2026   | 23/01/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
+| 15. | **Movimiento de manos**               | Mover los dedos de las manos                        | 23/01/2026   | 01/02/2026 | 🔄 En curso   | 🟨🟨🟨🟨 50%  |
+| 16. | **Acceder a cámara**                  | Lograr acceder sin errores a los datos de la cámara | 01/02/2026   | 02/02/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
+| 17. | **Reconocimiento de objetos**         | Lograr reconocer objetos con la cámara (YOLO V-?)   | 02/04/2026   | 13/02/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
+| 18. | **Integración con ROS2**              | Integrarlo con ROS2                                 | 13/02/2026   | 28/02/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
+| 19. | **Imitation Learning**                | Aprendizaje por imitación para manipular objetos    | 01/03/2026   | 01/04/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
+| 20. | **Reinforcement Learning**            | Aprendizaje por refuerzo para locomoción            | 01/04/2026   | 01/05/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
+| 21. | **Conversaciones localmente**         | Integrar con un LLM localmente                      | 01/05/2026   | 01/06/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
+| 22. | **Respuesta a comandos por voz**      | El LLM responde a comandos por voz, no solo habla   |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
+| 23. | **Navegación en interiores**          | Lograr que el robot navegue en interiores           |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
+| 24. | **Programación del mando**            | Programar el mando a nuestro gusto                  |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
+| 25. | **Movimientos quirúrgicos**           | Lograr movimientos más finos                        |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
