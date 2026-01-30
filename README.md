@@ -8,7 +8,7 @@
 
 ## 📚 Documentación
 
-- [🏠 Wiki](/wiki/_InicioWiki_.md)
+- [🏠 Wiki](/wiki/InicioWiki.md)
 
 ## 🔗 Repositorios conectados
 

@@ -2,13 +2,46 @@
 
 > **Documentación completa del proyecto de investigación con robot humanoide Unitree G1 EDU U3**  
 
-## 💻 **Desarrollo**
+## ✅ Recomendaciones previas
 
-- [⚡ Guía Repositorios Oficiales UnitreeRobotics (G1)](02_Repositorios_UnitreeRobotics/)
-- [⚡ Guía APPS Android](03_Android_Apps/)
-- [⚡ Guía Isaac Sim/Lab](04_Isaac_Sim_Lab/)
+Conocer y sentirse cómodo con:
+- Linux (Ubuntu 22.04)
+- Git y GitHub
+- C++
+- Python
+- DDS
+- ROS2
+- Docker
+- Entornos de simulación
+- Computer Vision - Reinforcement Learning - Imitation Learning
+- Desarrollo de APPS (web/móvil/escritorio)
+- Robótica básica (actuadores, sensores...)
 
-## 🤖 **Robot Unitree G1**
+Seguir orden de desarrollo lógico:
+1. SDK $\rightarrow$ Low Level
+2. SDK $\rightarrow$ High Level
+3. Acceso a cámara y sensor LiDAR
+4. ROS2
+5. Aprendizaje por Refuerzo o Imitación
+
+## 💻 Desarrollo
+
+- [⚡ Guía Repositorios Oficiales y ecosistema de desarrollo UnitreeRobotics (G1)](02_Repositorios_UnitreeRobotics/)
+- [⚡ Guía APPS Android](03_Android_APPS/)
+- [⚡ Guía Programa Voz](04_Programa_Voz/)
+- [⚡ Guía SDK G1](05_SDK_G1/)
+- [⚡ Guía SDK LiDAR](06_SDK_LiDAR/)
+- [⚡ Guía SDK Camara](07_SDK_Camara/)
+- [⚡ Guía MuJoCo](08_MuJoCo/)
+- [⚡ Guía Isaac Sim/Lab](09_Isaac_Sim_Lab/)
+- [⚡ Guía gafas realidad aumentada](10_Gafas_VR/)
+- [⚡ Guía desarrollo Low Level](11_Low_Level/)
+- [⚡ Guía desarrollo High Level](12_High_Level/)
+- [⚡ Guía desarrollo ROS2](13_ROS2/)
+- [⚡ Guía desarrollo Aprendizaje por Refuerzo](14_RL/)
+- [⚡ Guía desarrollo Aprendizaje por Imitación](15_IL/)
+
+## 🤖 Robot Unitree G1
 
 - [🔌 Unitree - Development Guide](https://support.unitree.com/home/en/G1_developer/)
 - [🔌 Manual www.docs.quadruped.de](/wiki/UnitreeG1_docs/00_Readme.md)
