@@ -1,6 +1,7 @@
 # 🧩 Guía de reproducción de la APP de Encuestas en otros dispositivos
 
 Este documento describe **cómo reproducir la APP de encuestas** en otro equipo.
+- [🔗 saaki-app-encuestas - Github](https://github.com/UAI-BIOARABA/saaki-app-encuestas)
 
 ## 🧠 Requisitos previos
 

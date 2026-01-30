@@ -4,13 +4,6 @@
 
 ## 💻 **Desarrollo**
 
-<!-- TODO: crear guia sdk
-     TODO: crear guia Mujoco
-     TODO: crear guia ROS2
-     TODO: completar guia Isaac Sim/Lab
-     TODO: plantear organización workspace, github...
- -->  
-
 - [⚡ Guía Repositorios Oficiales UnitreeRobotics (G1)](02_Repositorios_UnitreeRobotics/)
 - [⚡ Guía APPS Android](03_Android_Apps/)
 - [⚡ Guía Isaac Sim/Lab](04_Isaac_Sim_Lab/)
