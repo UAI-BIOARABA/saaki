@@ -2,30 +2,9 @@
 
 > **Documentación completa del proyecto de investigación con robot humanoide Unitree G1 EDU U3**  
 
-## ✅ Recomendaciones previas
-
-Conocer y sentirse cómodo con:
-- Linux (Ubuntu 22.04)
-- Git y GitHub
-- C++
-- Python
-- DDS
-- ROS2
-- Docker
-- Entornos de simulación
-- Computer Vision - Reinforcement Learning - Imitation Learning
-- Desarrollo de APPS (web/móvil/escritorio)
-- Robótica básica (actuadores, sensores...)
-
-Seguir orden de desarrollo lógico:
-1. SDK $\rightarrow$ Low Level
-2. SDK $\rightarrow$ High Level
-3. Acceso a cámara y sensor LiDAR
-4. ROS2
-5. Aprendizaje por Refuerzo o Imitación
-
 ## 💻 Desarrollo
 
+- [⚡ PRIMEROS PASOS](00_Primeros_Pasos/)
 - [⚡ Guía Repositorios Oficiales y ecosistema de desarrollo UnitreeRobotics (G1)](02_Repositorios_UnitreeRobotics/)
 - [⚡ Guía APPS Android](03_Android_APPS/)
 - [⚡ Guía Programa Voz](04_Programa_Voz/)
@@ -43,8 +22,8 @@ Seguir orden de desarrollo lógico:
 
 ## 🤖 Robot Unitree G1
 
-- [🔌 Unitree - Development Guide](https://support.unitree.com/home/en/G1_developer/)
-- [🔌 Manual www.docs.quadruped.de](/wiki/UnitreeG1_docs/00_Readme.md)
+- [🔌 Unitree G1 SDK Development Guide](https://support.unitree.com/home/en/G1_developer/)
+- [🔌 Manual Quadruped Robotics](https://www.docs.quadruped.de/projects/g1/html/index.html#)
 - [📱 Documentación oficial](00_UnitreeG1_Oficial/)
 - [📱 Official App](/wiki/00_UnitreeG1_Oficial/UnitreeG1_OfficialApp.md)
 - [🦾 Guías montaje y desmontaje](01_Montajes_Desmontajes/)
