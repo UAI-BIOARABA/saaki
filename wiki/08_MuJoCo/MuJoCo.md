@@ -14,7 +14,7 @@ Asegúrate de tener actualizado tu sistema:
 sudo apt update && sudo apt upgrade -y
 ```
 
-También asegurate haber instalado los SDK de Unitree según las guías proporcionadas en la [Guía SDK G1](05_SDK_G1/).
+También asegurate haber instalado los SDK de Unitree según las guías proporcionadas en la [Guía SDK G1](/wiki/05_SDK_G1/).
 
 
 ## 💻 Instalación C++
