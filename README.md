@@ -58,9 +58,9 @@
 | 12. | **Conexión G1**                       | Lograr conectarnos sin errores al robot             | 07/01/2026   | 08/01/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
 | 13. | **Low level control**                 | Lograr una DEMO funcional en el robot a bajo nivel  | 08/01/2026   | 15/01/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
 | 14. | **High level control**                | Lograr una DEMO funcional en el robot a alto nivel  | 15/01/2026   | 23/01/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 15. | **Movimiento de manos**               | Mover los dedos de las manos                        | 23/01/2026   | 02/02/2026 | 🔄 En curso   | 🟨🟨🟨🟨 50%  |
-| 16. | **Acceder a cámara**                  | Lograr acceder sin errores a los datos de la cámara | 02/02/2026   | 03/02/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
-| 17. | **Reconocimiento de objetos**         | Lograr reconocer objetos con la cámara (YOLO V-?)   | 03/04/2026   | 13/02/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
+| 15. | **Movimiento de manos**               | Mover los dedos de las manos                        | 23/01/2026   | 04/02/2026 | 🔄 En curso   | 🟨🟨🟨🟨 50%  |
+| 16. | **Acceder a cámara**                  | Lograr acceder sin errores a los datos de la cámara | 04/02/2026   | 05/02/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
+| 17. | **Reconocimiento de objetos**         | Lograr reconocer objetos con la cámara (YOLO V-?)   | 05/04/2026   | 13/02/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
 | 18. | **Integración con ROS2**              | Integrarlo con ROS2                                 | 13/02/2026   | 28/02/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
 | 19. | **Imitation Learning**                | Aprendizaje por imitación para manipular objetos    | 01/03/2026   | 01/04/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
 | 20. | **Reinforcement Learning**            | Aprendizaje por refuerzo para locomoción            | 01/04/2026   | 01/05/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
