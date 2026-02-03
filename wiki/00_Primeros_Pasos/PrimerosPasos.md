@@ -27,3 +27,4 @@ Una vez entendida la estructura y funcionamiento general del G1, se recomienda s
 3. Acceso a cámara y sensor LiDAR
 4. ROS2
 5. Aprendizaje por Refuerzo o Imitación
+6. VLA - WMA

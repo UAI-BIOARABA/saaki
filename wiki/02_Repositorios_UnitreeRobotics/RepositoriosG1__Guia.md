@@ -52,7 +52,7 @@ Ventaja: Es ligero y simula muy bien la física del contacto. Usar también para
 
 ---
 
-## 🧠 Inteligencia Artificial y Aprendizaje (Reinforcement Learning)
+## 🦿 Lcomoción (Reinforcement Learning)
 
 Aquí es donde la cosa se suele liar con los nombres (Isaac Gym, Isaac Sim, Isaac Lab). Unitree usa herramientas de NVIDIA para entrenar al robot para que "aprenda" a caminar o manipular objetos.
 
@@ -76,15 +76,25 @@ Isaac Lab es la librería de programación que corre sobre Isaac Sim para facili
 
 unitree_rl_lab es la configuración específica de Unitree para usar esas herramientas con el G1.
 
-- [unitree_IL_lerobot](https://github.com/unitreerobotics/unitree_IL_lerobot.git)
+- [unitree_rl_mjlab](https://github.com/unitreerobotics/unitree_rl_mjlab)
 
-¿Qué es?: Basado en LeRobot (de Hugging Face).
+¿Qué es?: Repositorio basado en MjLab (Laboratorio de entrenamiento de MuJoCo). Esto es básicamente una alternatiba a Isaac Lab.
 
-¿Para qué sirve?: Imitation Learning (Aprendizaje por Imitación). Se usa principalmente si tenemos los brazos con manos diestras. Enseñamos al robot moviendo sus brazos (teleoperación) y él aprende a copiarnos.
+¿Para qué sirve?: Aquí entrenamos redes neuronales. Si queremos que el robot aprenda a caminar por terreno irregular solo, usamos esto.
+
+Relación con MuJoCo:
+
+MuJoCo es el simulador.
+
+MjLab es la librería de programación que corre sobre MuJoCo para facilitar el entrenamiento de robots.
+
+unitree_rl_mjlab es la configuración específica de Unitree para usar esas herramientas con el G1.
 
 ---
 
-## 🦾 Manipulación
+## 🦾 Manipulación (Imitation Learning)
+
+Este apartado es parecido a la locomoción, pero usamos otras técnicas para que el robot pueda manipular cosas.
 
 - [unitree_sim_isaaclab](https://github.com/unitreerobotics/unitree_sim_isaaclab.git)
 
@@ -115,9 +125,9 @@ Recolección de Datos (Data Collection): Esta es la clave. Para que una IA apren
 Relación: Los datos que grabamos aquí son los que luego le damoss de comer a unitree_IL_lerobot.
 
 - [unitree_IL_lerobot](https://github.com/unitreerobotics/unitree_IL_lerobot.git) (Recordatorio)
-El Cerebro que imita
+¿Qué es?: Basado en LeRobot (de Hugging Face).
 
-Ya lo mencionamos, pero ahora cobra más sentido. Este repo toma los datos grabados con xr_teleoperate y entrena una red neuronal para que el robot haga la tarea solo.
+¿Para qué sirve?: Imitation Learning (Aprendizaje por Imitación). Se usa principalmente si tenemos los brazos con manos diestras. Enseñamos al robot moviendo sus brazos (teleoperación) y él aprende a copiarnos.
 
 Flujo: xr_teleoperate (Grabar) -> unitree_IL_lerobot (Entrenar) -> unitree_sdk2 (Ejecutar en robot real).
 
@@ -129,3 +139,22 @@ Aviso: Este repositorio se diseñó pensando en el Unitree H1 (el humanoide gran
 ¿Cómo funciona?: Usa una cámara Kinect para ver tu esqueleto humano y "retargetear" (traducir) tus articulaciones a las del robot.
 
 ¿Sirve para el G1?: Técnicamente la lógica de retargeting sirve, pero los archivos de configuración (URDF, límites de articulaciones) estarán hechos para el H1. A menos que queramos portar el código y ajustar las matemáticas de los ángulos, no es recomendable empezar por aquí con un G1. Es mejor usar los métodos de XR o joysticks del SDK.
+
+---
+
+## 🧠 Generalización (VLA y WMA)
+
+Esto es ir un paso más allá que el RL e IL, un paso muy difícil de lograr
+
+- [unifolm-vla](https://github.com/unitreerobotics/unifolm-vla)
+
+¿Qué es?: Un framework para desarrollar Vision Language Action. Son modelos que tratan de unificar visión, lenguaje natural y acción en una misma red neuronal. Esto es, asocian pixeles, lenguaje humano y acción en un mismo sitio. Por ejemplo, asocian una mesa desordenada y frases tipo "ordena la mesa" requieren x movimientos de sus motores para ordenarla, todo fotograma a fotograma.
+
+¿Para qué sirve?: Generalización, si queremos que una misma red neuronal haga todo (extremadamente difícil hoy en día). Muchas veces se complementa con World Models que veremos a continuación.
+
+- [unfolm-world-model-action](https://github.com/unitreerobotics/unifolm-world-model-action)
+
+¿Qué es?: Un framework para desarrollar World Model Action. Estos son modelos que tratan de predecir el futuro para elegir la mejor acción que pueden hacer para completar con éxito una tarea solicitada por un humano. Predicen el futuro generando los siguientes frames de vídeo con una política de difusión.
+
+¿Para qué sirve?: Generalización, si queremos que una misma red neuronal haga todo (extremadamente difícil hoy en día). Muchas veces sirve para complementar un VLA y que este haga la acción que el WM (sin la A de Action, porque no actuaría en este caso) a predecido.
+

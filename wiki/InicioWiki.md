@@ -19,6 +19,7 @@
 - [⚡ Guía desarrollo ROS2](13_ROS2/)
 - [⚡ Guía desarrollo Aprendizaje por Refuerzo](14_RL/)
 - [⚡ Guía desarrollo Aprendizaje por Imitación](15_IL/)
+- [⚡ Guía desarrollo VLA - WMA](16_VLA_WMA/)
 
 ## 🤖 Robot Unitree G1
 

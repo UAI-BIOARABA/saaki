@@ -2,7 +2,7 @@
 
 Este documento es una explicación del **ecosistema de desarrollo de software personalizado para el Unitree G1 EDU**. Explicaremos **las áreas de desarrollo que hay y para que sirve cada una**, de esta forma sabremos por donde desarrollar según la capacidad que queramos dotarle.
 
-Principalmente encontramos 5 áreas de desarrollo, unas dentro del apartado más clásico y otras más "modernas".
+Principalmente encontramos 6 áreas de desarrollo, unas dentro del apartado más clásico y otras más "modernas".
 
 ## ⚙️ Desarrollo Clásico
 
@@ -47,6 +47,11 @@ Inteligencia Artificial / Aprendizaje por Refuerzo. Aquí es donde brilla el G1.
   - Hardware: Gafas VR (Apple Vision Pro, Oculus) o guantes de captura de movimiento.
   - Software: Repositorios o plataformas propias de Unitree para teleoperación, indicados en la guía de repositorios.
 - Flujo de trabajo: Te pones las gafas y mueves tus manos (Teleoperación) $\rightarrow$ Grabas los datos $\rightarrow$ Entrenas una IA $\rightarrow$ La IA controla los brazos del Robot Real (vía SDK Low Level real o simulado).
+
+### 6 - Vision Language Action y World Model Action
+
+- ¿Para qué sirve?: Para enseñar al robot a comprender lenguaje humano, comprender su entorno y actuar en base a ambos tratando de generalizar. Por ejemplo, decirle con lenguaje humano que ordene la mesa y este sea capaz de hacerlo, es un paso más allá del RL e IL.
+- Este es un apartado muy avanzado y aún experimental, existen los repositorios en GitHub pero es realmente difícil implementarlos en un humanoide completo, por lo que este apartado aún no lo trataremos.
 
 ---
 
