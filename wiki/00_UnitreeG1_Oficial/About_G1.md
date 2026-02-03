@@ -113,8 +113,3 @@ The **G1 EDU:** model is available in the following versions:
 > - Some features mentioned on this page are still under development and testing. They will be made available to users in the future.
 > - This product is intended for civilian use only. Users should avoid making dangerous modifications or using the robot in hazardous ways.
 > - For more information on terms, policies, and compliance with local laws and regulations, please visit the Unitree Robotics website.
-
----
-[G1 Overview →](g1-overview)
-
-[Volver al Índice Principal](00_Readme.md)

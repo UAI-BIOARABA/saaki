@@ -223,11 +223,3 @@ When all joints are in their zero positions, the coordinate systems for the join
 | ------------------------------------------------- | ------------------------------------------------- |
 | ![G1 23 DOF](_images/g1_23dof.png)<br>*G1 23 DOF* | ![G1 29 DOF](_images/g1_29dof.png)<br>*G1 29 DOF* |
 
----
-
-**Anterior:** [Inicio ←](home.md)  
-**Siguiente:** [Preparación →](preparation.md)
-
----
-
-*[← Volver al Índice Principal](00_Readme.md)*

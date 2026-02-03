@@ -164,10 +164,3 @@ Before powering on the G1, ensure the following:
 6. Add protective buffers, include accessories (remote control, charger, etc.), and secure the square lining in the middle of G1.
 
 ![G1 Packed](_images/g1_packed.jpg)
-
----
-[← G1 Overview](g1-overview) 
-
-[Volver al Índice Principal](00_Readme.md)
-
-[G1 Operation (Firmware V1.0.2) →](operation-1.2.md)

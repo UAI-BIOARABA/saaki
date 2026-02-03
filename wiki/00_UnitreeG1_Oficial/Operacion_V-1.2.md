@@ -1,10 +1,9 @@
-# G1 Operation (Firmware V1.0.4)
-
+# G1 Operation (Firmware V1.0.2)
 
 ## G1 Powering On
 
 > **Attention**
-> If the G1 enters an unexpected state, press **L2 + B**. The robot will enter damping mode and **slowly fall to the ground**.
+> If the G1 enters an unexpected state, press **L1 + A**. The robot will enter damping mode and **slowly fall to the ground**.
 
 ### Installing Battery Pack
 
@@ -35,10 +34,10 @@ If conditions permit, G1 supports booting while seated. Place G1 on a chair with
 ### Successful Boot
 
 1. Wait approximately **1 minute** for the G1 to enter the **zero torque state**.
-2. Press `L2 + B` to enter damping mode.
-3. Hold the G1's shoulder and press `L2 + UP` to help it enter the ready state.
+2. Press `L1 + A` to enter damping mode.
+3. Hold the G1's shoulder and press `L1 + UP` to help it enter the ready state.
 4. Once G1 straightens and stands, you can press:
-   - `R2 + A` to enter operation control state.
+   - `R1 + X` or `R2 + X` to enter operation control state.
 
 ![G1 Boot Up](_images/g1_bootup.png)
 
@@ -77,8 +76,8 @@ The following steps guide you through the process of hanging, preparing, and pow
 - When all joints enter the **zero torque state**, the initialization is successful.
 
 3. Use the remote control:
-   - Press `L2 + B` to enter damping mode and unlock control.
-   - Press `L2 + UP` to enter the ready state.
+   - Press `L1 + A` to enter damping mode and unlock control.
+   - Press `L1 + UP` to enter the ready state.
 
 The G1 will assume a neutral posture, as shown in the following image.
 
@@ -87,7 +86,7 @@ The G1 will assume a neutral posture, as shown in the following image.
 ### Lowering and Activating the Robot
 
 1. Gradually lower the suspension rope until the G1's feet touch the ground.
-2. Press `R2 + A` on the remote control.
+2. Press `R1 + X` on the remote control.
    - The control program will start, transitioning G1 from the ready state to the motion state.
 3. Allow the robot to stabilize its movement.
 
@@ -125,8 +124,8 @@ Follow these steps to safely start up the G1 robot from a grounded position.
 
 ### Using the Remote Control
 
-1. Press `L2 + B` to enter damping mode and unlock control.
-2. Press `L2 + X` to activate the **Lying Down and Standing Up Mode**.
+1. Press `L1 + A` to enter damping mode and unlock control.
+2. Press `L1 + X` to activate the **Lying Down and Standing Up Mode**.
 
 > **Attention**
 > Maintain a **safe distance** as the robot will start to get up on its own.
@@ -139,7 +138,7 @@ The G1 will rise from the ground, as illustrated in the following GIF:
 
 ## Emergency Stop
 
-If the G1 enters an unexpected state, press **L2 + B**. The robot will enter damping mode and **slowly fall to the ground**.
+If the G1 enters an unexpected state, press **L1 + A**. The robot will enter damping mode and **slowly fall to the ground**.
 
 > **Attention**
 > Always ensure the suspension setup is stable and secure to prevent damage or accidents during operation.
@@ -153,9 +152,9 @@ Follow these procedures to safely switch off the G1 robot in various scenarios.
 ### Sitting Shutdown [Method 1]
 
 1. Stand behind the chair to assist the G1 robot in sitting, while the robot stands in front of the chair facing away from it. Ensure the robot remains stationary.
-2. Hold the back of the shoulders and press `L2 + LEFT` on the remote control to help G1 sit down.
+2. Hold the back of the shoulders and press `L1 + LEFT` on the remote control to help G1 sit down.
 3. Perform the following steps to power off:
-   a. Press `L2 + B` to enter damping mode.
+   a. Press `L1 + A` to enter damping mode.
    b. Press and hold the battery power switch key for more than 2 seconds to shut down.
 
 ![G1 Sitting Turning Off](_images/g1_sitting_off.png)
@@ -170,7 +169,7 @@ After shutting down:
 
 1. Resuspend G1 on the protective frame to ensure it is stationary. The rope should maintain tension on the robot.
 2. Perform the following steps to power off:
-   a. Press `L2 + B` to enter damping mode.
+   a. Press `L1 + A` to enter damping mode.
    b. Press and hold the battery power switch key for more than 2 seconds to shut down.
 
 After shutting down:
@@ -186,7 +185,7 @@ After shutting down:
 1. Hold G1 securely:
    - One hand should be positioned between the legs.
    - The other hand should hold the bracket on the back of the shoulders.
-2. With assistance, press `L2 + B` to enter damping mode. **The robot will lose balance**; carefully lower it to the ground.
+2. With assistance, press `L1 + A` to enter damping mode. **The robot will lose balance**; carefully lower it to the ground.
 3. Ensure the entire body is lying flat on the ground.
 4. Press and hold the battery power switch key for more than 2 seconds to shut down.
 
@@ -360,13 +359,13 @@ When using the remote control to maneuver the G1 robot with joysticks, follow th
 
 - **Push Forward:**
 
-| ![G1 Forward](_images/g1_fwd.png) | ![G1 Forward GIF](_images/g1_fwd.webp) |
-| :-------------------------------: | :------------------------------------: |
+| ![G1 Forward](_images/g1_fwd.png) | ![G1 Forward](_images/g1_fwd.wepb) |
+| :-------------------------------: | :--------------------------------: |
 
 - **Push Backward:**
 
-| ![G1 Backward](https://www.docs.quadruped.de/projects/g1/html/_images/g1_bwd.png) | ![G1 Backward GIF](_images/g1_bwd.webp) |
-| :-------------------------------------------------------------------------------: | :-------------------------------------: |
+| ![G1 Backward](_images/g1_bwd.png) | ![G1 Backward](_images/g1_bwd.wepb) |
+| :--------------------------------: | :---------------------------------: |
 
 **Right Joystick**
 
@@ -407,12 +406,12 @@ The G1 robot features several operational modes. Below is a detailed explanation
 
 The robot allows seamless transitions between modes using specific commands:
 
-![G1 Mode Switch](_images/mode_switch_new.png)
+![G1 Mode Switch](_images/g1_mode_switch.png)
 
 > **Important**
-> - To switch back to Main Operation Control mode after using the squatting position (L2 + A), follow these steps:
->   1. Enter damping mode using **L2 + B**.
->   2. Switch to Main Operation Control mode using **L2 + A**.
+> - To switch back to Main Operation Control mode after using the squatting position (L1 + Y), follow these steps:
+>   1. Enter damping mode using **L1 + A**.
+>   2. Switch to Main Operation Control mode using **L1 + Y**.
 
 ---
 
@@ -425,12 +424,13 @@ Use the following button combinations to switch between various posture modes:
 | **Mode**           | **Button Combination**   | **Description**                               |
 | ------------------ | ------------------------ | --------------------------------------------- |
 | Debug Mode         | Hold L2 + Click R2       | Enter debug mode for testing and development. |
-| Zero Torque Mode   | Hold L2 + Click Y        | Switch to zero torque mode.                   |
-| Damping Mode       | [1] Hold L2 + Click B    | Activate damping mode for smooth motion.      |
-| Lock Stand         | [2] Hold L2 + Click UP   | Lock the robot in a standing posture.         |
-| Seated Mode        | [4] Hold L2 + Click LEFT | Switch to seated posture.                     |
-| Lying and Standing | [5] Hold L2 + Click X    | Switch between lying and standing positions.  |
-| Squat Switch       | [6] Hold L2 + Click A    | Alternate between squatting postures.         |
+| Zero Torque Mode   | Hold L1 + Click B        | Switch to zero torque mode.                   |
+| Damping Mode       | [1] Hold L1 + Click A    | Activate damping mode for smooth motion.      |
+| Lock Stand         | [2] Hold L1 + Click UP   | Lock the robot in a standing posture.         |
+| Seated Mode        | [4] Hold L1 + Click LEFT | Switch to seated posture.                     |
+| Squat Mode         | Hold L1 + Click DOWN     | Transition to squat posture.                  |
+| Lying and Standing | [5] Hold L1 + Click X    | Switch between lying and standing positions.  |
+| Squat Switch       | [6] Hold L1 + Click Y    | Alternate between squatting postures.         |
 
 ### Interactive Functions
 
@@ -450,14 +450,16 @@ The G1 robot supports various interactive gestures. Use the table below for guid
 | :---------------------------------------------------: | :-------------------------------------------------: |
 |                **G1 Wave Hand Right**                 |                **G1 Wave Hand Left**                |
 
-| **[3] R2 + A(Run Control)** | **Button Combination** |
+| **[3] R2 + X(Run Control)** | **Button Combination** |
 | --------------------------- | ---------------------- |
-| Slow Running                | R2 + Down              |
-| Fast Running                | R2 + Up                |
-| Forward Lean                | Hold Start + Hold Up   |
-| Backward Lean               | Hold Start + Hold Down |
+| Increase the lift height    | Click B                |
+| Decrease leg lift height    | Click A                |
+| Increase standing height    | Click Y                |
+| Decrease standing height    | Click X                |
+| Slow Running                | R1 + left rocker       |
+| Fast Running                | R2 + left rocker       |
 
-| **[7] R1 + X (Main Operation Control)** | **Button Combination**                                                                                                                         |
+| **[3] R1 + X (Main Operation Control)** | **Button Combination**                                                                                                                         |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | Keep stepping (not recommended)         | Double Click START                                                                                                                             |
 | Standing                                | Click START                                                                                                                                    |
@@ -469,13 +471,22 @@ The G1 robot supports various interactive gestures. Use the table below for guid
 | :---------------------------------------------: | :----------------------------------------------: |
 |              **G1 Low Speed Mode**              |              **G1 High Speed Mode**              |
 
-| **[8] R1 + Y (Only Used For 3-DOF Waist Structure)** | **Button Combination**                                                                                                                         |
+| **[7] R1 + Y (Only Used For 3-DOF Waist Structure)** | **Button Combination**                                                                                                                         |
 | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | Keep stepping (not recommended)                      | Double Click START                                                                                                                             |
 | Standing                                             | Click START                                                                                                                                    |
 | Low speed mode                                       | Double-Click L2                                                                                                                                |
 | High speed mode                                      | Double-Click L1                                                                                                                                |
 | Offset Compensation                                  | Left Offset:Hold R1 + Click - →<br>Right Offset: Hold R1 + Click - ←<br>Forward Offset: Hold R1 + Click ↓<br>Backward Offset Hold R1 + Click ↑ |
+
+| **[8] R2 + Y (Only Used For 3-DOF Waist Structure)** | **Button Combination**     |
+| ---------------------------------------------------- | -------------------------- |
+| Increase the lift height                             | Click B                    |
+| Decrease leg lift height                             | Click A                    |
+| Increase standing height                             | Click Y                    |
+| Decrease standing height                             | Click X                    |
+| Keep stepping (not recommended)                      | Click START                |
+| Waist Control                                        | Hold SELECT + Right Rocker |
 
 > **Important**
 > - Starting in lying or squatting positions is **only suitable for flat and hard ground**. Using these modes on uneven surfaces may lead to instability and potential damage.
@@ -506,10 +517,3 @@ The G1 robot supports various interactive gestures. Use the table below for guid
 **Remote Control Timeout**
 
 - If the R3 remote control is not connected to the robot or phone after turning on, the robot will automatically shut down within 10 minutes of inactivity. To reconnect, power the robot on again.
-
----
-[← G1 Operation (Firmware V1.0.2)](operation-1.2.md)
-
-[Volver al Índice Principal](00_Readme.md)
-
-[ROS2 Drivers →](ros2-drivers.md)
