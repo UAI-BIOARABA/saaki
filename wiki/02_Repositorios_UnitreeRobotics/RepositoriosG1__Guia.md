@@ -2,11 +2,14 @@
 
 Este documento es una breve guía sobre los diferentes **repositorios oficiales de Unitree Robotics**, centrada en los que se utilizan para el robot humanoide **Unitree G1 EDU**. Explicaremos **para que sirven, donde se usarán y que relacion tienen entre ellos (los que la tengan)**, ya que al principio puede parecer confuso entender cuales nos interesan o necesitamos instalar.
 
+**NOTA:** A la hora de clonar repositorios, usar los **FORKS de UAI-BIOARABA**, así aseguramos estabilidad y podemos modificar lo que queramos. Si no existe el FORK del repositorio que quieres clonar, primero realiza el FORK y después lo clonas.
+
 ---
 
-## 🔗 Cuenta oficial de Unitree Robotics en GitHub
+## 🔗 Cuentas Oficiales de GitHub
 
 - [GitHub Unitree Robotics](https://github.com/unitreerobotics)
+- [GitHub UAI-BIOARABA](https://github.com/UAI-BIOARABA)
 
 ---
 

@@ -57,7 +57,7 @@ unitree_sdk2/                 } # Repositorios oficiales Unitree (Usar forks de 
 unitree_sdk2_python/          }
 ```
 
-Si has seguido las recomendaciones y ya conoces minimamente el SDK, es el momento de mirar los ejemplos incluidos en la carpeta Python o C++, están altamente documentados, por lo que será sencillo entender que hace cada parte del programa.
+Si has seguido las recomendaciones y ya conoces minimamente el SDK, es el momento de mirar los ejemplos incluidos en la carpeta low de Python o C++, están altamente documentados, por lo que será sencillo entender que hace cada parte del programa.
 
 ## 💻 Desarrollo
 
