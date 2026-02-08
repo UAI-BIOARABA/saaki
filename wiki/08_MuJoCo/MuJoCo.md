@@ -2,6 +2,8 @@
 
 Este documento describe **cómo instalar MuJoCo**, **el repositorio oficial de unitree para configuración** y **garantizar que no existan conflictos** de instalación o funcionamiento en ningún equipo.
 
+Adicionalmente, explicaremos como instalar MJLab, el laboratorio de entrenamiento de aprendizaje por refuerzo basado en MuJoCo, una alternativa a Isaac Lab.
+
 ---
 
 ## 🧠 Requisitos previos
@@ -17,7 +19,7 @@ sudo apt update && sudo apt upgrade -y
 También asegurate haber instalado los SDK de Unitree según las guías proporcionadas en la [Guía SDK G1](/wiki/05_SDK_G1/).
 
 
-## 💻 Instalación C++
+## ©️ Instalación C++
 
 Dpendencias:
 
@@ -72,7 +74,7 @@ cd ~/unitree_mujoco/simulate/build
 ./unitree_mujoco -r g1 -s scene.xml
 ```
 
-## 💻 Instalación Python
+## 🐍 Instalación Python
 
 Activa el entorno creado cuando instalaste el SDK:
 
@@ -91,4 +93,39 @@ Ya puedes lanzarlo:
 ```
 cd unitree_mujoco/simulate_python
 python3 unitree_mujoco.py
+```
+
+## 🧪 Instalación MJLab
+
+Activa el entorno creado cuando instalaste el SDK:
+
+```
+conda activate nombre-entorno
+```
+
+Ahora, clona el repositorio usando git:
+
+```
+git clone https://github.com/unitreerobotics/unitree_rl_mjlab.git
+```
+
+Instala las dependencias:
+
+```
+sudo apt install -y libyaml-cpp-dev libboost-all-dev libeigen3-dev libspdlog-dev libfmt-dev
+```
+
+Instala Mujoco-Warp
+
+> Mujoco-Warp es una extensión optimizada para GPU del simulador de física MuJoCo, desarrollado por Google DeepMind. Está diseñado para aprovechar las GPU NVIDIA para simulación y renderizado de alto rendimiento.
+
+```
+pip install "mujoco-warp@git+https://github.com/google-deepmind/mujoco_warp@9491175b7cbea87e28d3e3e67733095317c33398"
+```
+
+Instala las dependencias restantes:
+
+```
+cd unitree_rl_mjlab
+pip install -e .
 ```
