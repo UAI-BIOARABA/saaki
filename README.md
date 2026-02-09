@@ -72,5 +72,5 @@
 
 <!-- Ir metiendo videos de los avances más interesantes -->
 
-| <video src="(https://github.com/user-attachments/assets/d5203943-027f-4d63-b035-4af775f36973)" autoplay loop muted width="100%"></video> |
+| <video src="https://github.com/user-attachments/assets/d5203943-027f-4d63-b035-4af775f36973" autoplay loop muted width="100%"></video> |
 
