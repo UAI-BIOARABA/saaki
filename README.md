@@ -71,6 +71,3 @@
 
 
 <!-- Ir metiendo videos de los avances más interesantes -->
-
-https://github.com/user-attachments/assets/32c37eae-8d13-4109-b3c8-74c6043ecfb5
-<video src="https://github.com/user-attachments/assets/d5203943-027f-4d63-b035-4af775f36973" autoplay loop muted width="100%"></video>
