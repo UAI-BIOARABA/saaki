@@ -12,9 +12,12 @@
 
 ## 🔗 Repositorios conectados
 
-- [🔗 saaki-core - Github](https://github.com/UAI-BIOARABA/saaki-core)
-- [🔗 saaki-audios - Github](https://github.com/UAI-BIOARABA/saaki-audios)
-- [🔗 saaki-app-encuestas - Github](https://github.com/UAI-BIOARABA/saaki-app-encuestas)
+- Código y ejemplos sobre los SDK:
+  - [saaki-core](https://github.com/UAI-BIOARABA/saaki-core)
+- Programa de generación de audios compatibles:
+  - [saaki-audios](https://github.com/UAI-BIOARABA/saaki-audios)
+- Aplicación de encuestas acerca del robot:
+  - [saaki-app-encuestas](https://github.com/UAI-BIOARABA/saaki-app-encuestas)
 
 ## 👥 Equipo del Proyecto
 
