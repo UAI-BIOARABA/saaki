@@ -7,10 +7,10 @@ El unitree G1 tiene una cámara Intel Realsense D435i, la cual tiene su SDK prop
 
 El SDK tiene su propia guía de instalación para las diferentes plataformas (Windows, Ubuntu, Jetson...), pero puede ser un poco confusa, por lo que trataremos de complementarla aquí.
 
-Para la instalación enn nuestro PC sguiremos la guía de instalación en Ubuntu:
+Para la instalación en nuestro PC sguiremos la guía de instalación en Ubuntu:
 - [Oficial](https://github.com/realsenseai/librealsense/blob/master/doc/installation.md)
 
-Para instalarlo en el robot, la de Jetson.
+Para instalarlo en el robot, la de Jetson:
 - [Oficial](https://github.com/realsenseai/librealsense/blob/master/doc/distribution_linux.md#installing-the-packages)
 
 ---
