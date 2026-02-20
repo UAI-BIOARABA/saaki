@@ -1,6 +1,6 @@
-# 🤖 IIS BIOARABA - UAI - UNITREE G1 EDU U3
+# IIS BIOARABA - UAI - UNITREE G1 EDU U3
 
-## **Plataforma de desarrollo e investigación con robótica humanoide**  
+## 🤖 **Plataforma de desarrollo e investigación con robótica humanoide** 
 
 <img src="wiki/media/otros/foto_bienvenida.jpeg" alt="Bienvenida" width="720"/>
 
@@ -15,7 +15,7 @@
 - Código y ejemplos sobre los SDK:
   - [saaki-core](https://github.com/UAI-BIOARABA/saaki-core)
 - Código y ejemplos en ROS2:
-  - [🔗 saaki-ros2-examples - Github](https://github.com/UAI-BIOARABA/saaki-ros2-examples)
+  - [saaki-ros2-examples - Github](https://github.com/UAI-BIOARABA/saaki-ros2-examples)
 - Programa de generación de audios compatibles:
   - [saaki-audios](https://github.com/UAI-BIOARABA/saaki-audios)
 - Aplicación de encuestas acerca del robot:
