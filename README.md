@@ -13,6 +13,7 @@
 ## 🔗 Repositorios conectados
 
 - [🔗 saaki-core - Github](https://github.com/UAI-BIOARABA/saaki-core)
+- [🔗 saaki-ros2-examples - Github](https://github.com/UAI-BIOARABA/saaki-ros2-examples)
 - [🔗 saaki-audios - Github](https://github.com/UAI-BIOARABA/saaki-audios)
 - [🔗 saaki-app-encuestas - Github](https://github.com/UAI-BIOARABA/saaki-app-encuestas)
 
@@ -41,8 +42,8 @@
 
 | #   | Fase                                  | Actividad                                           | Fecha Inicio | Fecha Fin  | Estado        | Progreso      |
 | --- | ------------------------------------- | --------------------------------------------------- | ------------ | ---------- | ------------  | ------------- |
-| 0.  | **Investigación**                     | Investigación sobre el robot y sus capacidades      | 15/09/2025   | --/--/---- | ♻️ Permanente |               |
-| 0.  | **WIKI**                              | Generacion de wiki y repositorios en Github         | 15/09/2025   | --/--/---- | ♻️ Permanente |               |
+| 0.  | **Investigación**                     | Investigación sobre el robot y sus capacidades      | 15/09/2025   | --/--/---- | ♻️ Permanente |                 |
+| 0.  | **WIKI**                              | Generacion de wiki y repositorios en Github         | 15/09/2025   | --/--/---- | ♻️ Permanente |                 |
 | 1.  | **Análisis y estado del arte**        | Analizar hardware, software y estado del arte       | 15/09/2025   | 06/10/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
 | 2.  | **APP**                               | APP para recogida de 2 encuestas en primer proyecto | 24/09/2025   | 13/01/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
 | 3.  | **AUDIOS EN PYTHON**                  | Generación de audios con Python                     | 20/10/2025   | 27/10/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
@@ -59,15 +60,15 @@
 | 14. | **High level control**                | Lograr una DEMO funcional en el robot a alto nivel  | 15/01/2026   | 23/01/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
 | 15. | **Movimiento de manos**               | Mover los dedos de las manos                        | 23/01/2026   | 04/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
 | 16. | **Acceder a cámara**                  | Lograr acceder sin errores a los datos de la cámara | 04/02/2026   | 05/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 17. | **Reconocimiento de objetos**         | Lograr reconocer objetos con la cámara (YOLO V-?)   | 05/04/2026   | 13/02/2026 | 🔄 En curso   | 🟨🟨🟨🟨 75%  |
-| 18. | **Integración con ROS2**              | Integrarlo con ROS2                                 | 13/02/2026   | 28/02/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
-| 19. | **Imitation Learning**                | Aprendizaje por imitación para manipular objetos    | 01/03/2026   | 01/04/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
-| 20. | **Reinforcement Learning**            | Aprendizaje por refuerzo para locomoción            | 01/04/2026   | 01/05/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
-| 21. | **Conversaciones localmente**         | Integrar con un LLM localmente                      | 01/05/2026   | 01/06/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
+| 17. | **Reconocimiento de objetos**         | Lograr reconocer objetos con la cámara (YOLO V-?)   | 05/04/2026   | 13/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
+| 18. | **Integración con ROS2**              | Integrarlo con ROS2                                 | 13/02/2026   | 28/02/2026 | 🔄 En curso   | 🟨🟨🟨🟨 50%  |
+| 19. | **Imitation Learning**                | Aprendizaje por imitación para manipular objetos    | 01/03/2026   | 15/04/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
+| 20. | **Reinforcement Learning**            | Aprendizaje por refuerzo para locomoción            | 16/04/2026   | 01/06/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
+| 21. | **VLA / WMA**                         | Vision Languaje Action y World Model Action         |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
+| 21. | **Conversaciones localmente**         | Integrar con un LLM localmente                      |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
 | 22. | **Respuesta a comandos por voz**      | El LLM responde a comandos por voz, no solo habla   |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
 | 23. | **Navegación en interiores**          | Lograr que el robot navegue en interiores           |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
 | 24. | **Programación del mando**            | Programar el mando a nuestro gusto                  |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
 | 25. | **Movimientos quirúrgicos**           | Lograr movimientos más finos                        |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
-
 
 <!-- Ir metiendo videos de los avances más interesantes -->
