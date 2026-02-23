@@ -231,3 +231,36 @@ if __name__ == '__main__':
 ```
 
 Ahora en tu PC, podrás verlos directamente en tu navegador.
+
+## 🦾 Instalación Wrapper de ROS2
+
+Una vez tengas instalado correctamente ROS2 humble y el SDK de la cámara, podrás instalar el wrapper de ROS2.
+
+Entra en tu workspace y clona el repo:
+
+```
+cd ~/ros2_ws/src/
+git clone https://github.com/realsenseai/realsense-ros.git -b ros2-master
+```
+
+Instala dependencias:
+
+```
+cd ~/ros2_ws
+sudo apt-get install python3-rosdep -y
+sudo rosdep init # "sudo rosdep init --include-eol-distros" for Foxy and earlier
+rosdep update # "sudo rosdep update --include-eol-distros" for Foxy and earlier
+rosdep install -i --from-path src --rosdistro $ROS_DISTRO --skip-keys=librealsense2 -y
+colcon build
+```
+
+Source:
+
+```
+ROS_DISTRO=HUMBLE
+source /opt/ros/$ROS_DISTRO/setup.bash
+cd ~/ros2_ws
+. install/local_setup.bash
+```
+
+Para conocer más información acerca del wrapper, visita el repo [realsense-ros](https://github.com/realsenseai/realsense-ros.git).
