@@ -14,8 +14,9 @@
 
 - Código y ejemplos sobre los SDK:
   - [saaki-core](https://github.com/UAI-BIOARABA/saaki-core)
-- Código y ejemplos en ROS2:
+- Paquetes de ROS2:
   - [saaki-ros2-examples](https://github.com/UAI-BIOARABA/saaki-ros2-examples)
+  - [saaki-ros2-yolo](https://github.com/UAI-BIOARABA/saaki-ros2-yolo)
 - Programa de generación de audios compatibles:
   - [saaki-audios](https://github.com/UAI-BIOARABA/saaki-audios)
 - Aplicación de encuestas acerca del robot:
@@ -65,8 +66,8 @@
 | 15. | **Movimiento de manos**               | Mover los dedos de las manos                        | 23/01/2026   | 04/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
 | 16. | **Acceder a cámara**                  | Lograr acceder sin errores a los datos de la cámara | 04/02/2026   | 05/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
 | 17. | **Reconocimiento de objetos**         | Lograr reconocer objetos con la cámara (YOLO V-?)   | 05/04/2026   | 13/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 18. | **Integración con ROS2**              | Integrarlo con ROS2                                 | 13/02/2026   | 28/02/2026 | 🔄 En curso   | 🟨🟨🟨🟨 50%  |
-| 19. | **Imitation Learning**                | Aprendizaje por imitación para manipular objetos    | 01/03/2026   | 15/04/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
+| 18. | **Integración con ROS2**              | Integrar el reconocimiento de objetos con ROS2      | 13/02/2026   | 28/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
+| 19. | **Imitation Learning**                | Aprendizaje por imitación para manipular objetos    | 01/03/2026   | 15/04/2026 | 🔄 En curso   | 🟨🟨🟨🟨 10%  |
 | 20. | **Reinforcement Learning**            | Aprendizaje por refuerzo para locomoción            | 16/04/2026   | 01/06/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
 | 21. | **VLA / WMA**                         | Vision Languaje Action y World Model Action         |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
 | 21. | **Conversaciones localmente**         | Integrar con un LLM localmente                      |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
