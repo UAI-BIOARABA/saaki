@@ -1,74 +1,124 @@
-# 🧩 Instrucciones de desarrollo Low Level
+# 🧩 High-Level Development Instructions
 
-Este documento describe **instrucciones sobre como desarrollar código a alto nivel** en el robot humanoide Unitree G1. El documento es práctimante igual al de Low Level, ya que son desarrollos que van "de la mano".
+This document describes **instructions on how to develop high-level code** for the **Unitree G1 humanoid robot**.  
+The document is practically the same as the Low-Level guide, since both types of development usually **go hand in hand**.
 
 ---
 
-## 🧠 Requisitos previos
+## 🧠 Prerequisites
 
-Asegurate de tener instalados ambos SDKs segú la guía proporcionada en la [Guía SDK G1](/wiki/05_SDK_G1/)
+Make sure you have **both SDKs installed** according to the guide provided in:
 
-Los SDK solo son compatibles con Ubuntu 20.04 y 22.04 (Recomendado).
+```
+/wiki/05_SDK_G1/
+```
 
-Al igual que a bajo nivel, recomendamos también conocer el SDK que qureamos utilizar, dedicar un tiempo a entender como funciona, como se comunica (con DDS) y como está dividido. Si has seguido la guía, esto no será un problema, solo repasa las APIs de alto nivel, suelen llamarse LOCO... o SPORTS..., depende de la versión y sobretodo, de como les han querido llamar los desarrolladores en cada robot.
+The SDKs are only compatible with **Ubuntu 20.04 and 22.04 (recommended)**.
 
-## 🦯 Familiarización
+As with low-level development, we also recommend becoming familiar with the SDK you plan to use. Spend some time understanding **how it works, how it communicates (via DDS), and how it is structured**.
 
-El desarrollo de alto nivel trata de enviar comandos de movimiento o acciones al robot (anda a 5 m/s, saluda, reproduce este audio...). A diferencia deldesarrollo a bajo nivel, aquí no tenemos control total sobre el robot, su equilibrio está siempre en funcionamiento y estamos limitados a las API que nos proporciona el fabricante (o nosotros desarrollamos).
+If you followed the installation guide, this should not be a problem. Just review the **high-level APIs**, which are usually named something like:
 
-Cabe destacar, que esta forma de desarrollo es muchísimo más sencilla, la más sencilla de todas.
+- `LOCO...`
+- `SPORTS...`
 
-Si ya has conocido el desarrollo a bajo nivel, ya tendrás clonado nuestro repositorio [saaki-core](https://github.com/UAI-BIOARABA/saaki-core) HOME.
+depending on the version and, most importantly, on how the developers named them for each robot.
 
-Aquí, también podemos desarrollar en 2 lenguajes, cada uno requiere tener su SDK instalado:
-- Python
-- C++
+---
 
-Nos encontramos con una estructura de este estilo:
+## 🦯 Familiarization
+
+High-level development involves sending **movement commands or actions** to the robot, such as:
+
+- Walk at **5 m/s**
+- **Wave**
+- **Play an audio file**
+
+Unlike low-level development, here we **do not have full control over the robot**. The robot's **balance controller is always active**, and we are limited to the **APIs provided by the manufacturer** (or ones we develop ourselves).
+
+It is important to note that **this form of development is significantly easier**, in fact **the easiest approach overall**.
+
+If you have already explored low-level development, you should already have cloned our repository:
+
+https://github.com/UAI-BIOARABA/saaki-core
+
+into your **HOME directory**.
+
+---
+
+# Supported languages
+
+You can develop using two languages, each requiring its corresponding SDK:
+
+- **Python**
+- **C++**
+
+---
+
+# Repository structure
+
+You will find a structure similar to the following:
 
 ```
 └── saaki-core/                 ← core (Python | C++)
-    ├── .vscode                 # Configuración de VS Code (Si se usa)
-    ├── build                   # Compilacion de programas en C++
+    ├── .vscode                 # VS Code configuration (if used)
+    ├── build                   # Compiled C++ programs
     │
-    ├── python/                 # Scripts de control y lógica (SDK Python)
-    │   ├── high/    
-    │   │   └── ___.py          
+    ├── python/                 # Control scripts and logic (Python SDK)
+    │   ├── high/
+    │   │   └── ___.py
     │   └── low/
     │       └── ___.py
     │
-    ├── cpp/                    # Código de alto rendimiento (C++)
+    ├── cpp/                    # High-performance code (C++)
     │   ├── high/
-    │   │   ├── ___.cpp 
+    │   │   ├── ___.cpp
     │   │   ├── ...
     │   │   └── CMakeLists.txt
     │   │
     │   └── low/
-    │       ├── ___.cpp 
+    │       ├── ___.cpp
     │       ├── ...
     │       └── CMakeLists.txt
     │
-    ├── .gitignore              # Incluye lo que no queremos subir a github
-    ├── requirements.txt        # Dependencias de Python del proyecto
-    ├── CONTRIBUTING.md         # Como contribuir/colaborar
-    └── README.md               # Información del repositorio
+    ├── .gitignore              # Files we do not want to upload to GitHub
+    ├── requirements.txt        # Python project dependencies
+    ├── CONTRIBUTING.md         # Contribution / collaboration guidelines
+    └── README.md               # Repository information
 
-                    
+
 unitree_mujoco/               }
-unitree_sdk2/                 } # Repositorios oficiales Unitree (Usar forks de BioAraba)
-unitree_sdk2_python/          }
+unitree_sdk2/                 }  # Official Unitree repositories
+unitree_sdk2_python/          }  # (Use BioAraba forks)
 ```
 
-Si has seguido las recomendaciones y ya conoces minimamente el SDK, es el momento de mirar los ejemplos incluidos en la carpeta high de Python o C++, están altamente documentados, por lo que será sencillo entender que hace cada parte del programa.
+---
 
-## 💻 Desarrollo
+# Understanding the examples
 
-Desarrollar ahora es muy sencillo, crea tus programas basándote los ejemplos que has encontrado y sigue las instrucciones del archivo CONTRIBUTING.md que encontrarás en el repositorio.
+If you followed the recommendations and already have a basic understanding of the SDK, the next step is to examine the **examples included in the `high` folders** for both:
 
-1. Crea una rama
-2. Crea el archivo .py o .cpp en la carpeta correspondiente
-3. Desarrolla tu programa
-4. Haz commit de tus cambios
-5. Haz una PR
+- Python
+- C++
 
-¡¡LISTO!!
+These examples are **well documented**, making it easier to understand what each part of the program does.
+
+---
+
+# 💻 Development Workflow
+
+Developing new programs is straightforward.
+
+1. **Create a branch**
+2. **Create the `.py` or `.cpp` file** in the corresponding folder
+3. **Develop your program** based on the examples
+4. **Commit your changes**
+5. **Create a Pull Request**
+
+Follow the detailed instructions in the `CONTRIBUTING.md` file inside the repository.
+
+---
+
+# ✅ Done!
+
+Once the PR is reviewed and merged, your code will be integrated into the project.

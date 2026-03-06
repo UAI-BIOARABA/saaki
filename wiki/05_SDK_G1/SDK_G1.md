@@ -1,96 +1,102 @@
-# 🧩 Guía de instalación y configuración de los SDK oficiales del Unitree G1
+# 🧩 Installation and Configuration Guide for the Official Unitree G1 SDKs
 
-Este documento describe **cómo instalar los SDK oficiales**, **configurar todas las dependencias necesarias** y **garantizar que no existan conflictos** de instalación o funcionamiento en ningún equipo.
+This document describes **how to install the official SDKs**, **configure all required dependencies**, and **ensure there are no installation or runtime conflicts** on any machine.
 
-Unitree nos proporciona 2 SDK sobre los que trabajar:
-- SDK C++
-- SDK Python
+Unitree provides **two SDKs** to work with:
 
-Realmente el SDK en Python es solo un "envoltorio" del SDK en C++, el cual es más rápido pero más difícil y verboso. En general, se recomienda tener ambos instalados, ya que otros repositorios pueden depender del SDK original (C++) pero para probar scripts en Python necesitaremos el otro también.
+- **C++ SDK**
+- **Python SDK**
+
+In practice, the Python SDK is just a **wrapper around the C++ SDK**, which is faster but also more complex and verbose. In general, it is recommended to install **both**, since other repositories may depend on the original C++ SDK, while Python scripts require the Python one.
 
 ---
 
-## 🧠 Requisitos previos
+## 🧠 Prerequisites
 
-Los SDK solo son compatibles con Ubuntu 20.04 y 22.04 (Recomendado).
+The SDKs are only compatible with **Ubuntu 20.04 and 22.04** (recommended).
 
-Asegúrate de tener actualizado tu sistema:
+Make sure your system is updated:
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-Antes de nada, asegurate que las siguientes dependencias están instaladas:
+Before starting, make sure the following dependencies are installed:
 
-- CMake (versión 3.10 o superior)
-- GCC (versión 9.4.0)
-- Make
+- **CMake** (version 3.10 or higher)
+- **GCC** (version 9.4.0)
+- **Make**
 
-Instala dependencias:
-```
+Install dependencies:
+
+```bash
 apt-get update
 apt-get install -y cmake g++ build-essential libyaml-cpp-dev libeigen3-dev libboost-all-dev libspdlog-dev libfmt-dev
 ```
 
-## 💻 Instalación SDK C++
+---
 
-Usamos nuestros propios Forks en la organización para asegurar estabilidad.
+## 💻 C++ SDK Installation
 
-Lo clonamos en "~" pero luego lo podemos mover si queremos.
+We use **our own forks in the organization** to ensure stability.
 
-```
+We clone it into `~`, but it can be moved elsewhere later if desired.
+
+```bash
 cd ~
 git clone https://github.com/UAI-BIOARABA/unitree_sdk2.git
 cd unitree_sdk2
 
-# Crear carpeta de compilación
+# Create build directory
 mkdir build
 cd build
 
-# Compilar configurando la ruta de instalación recomendada
+# Compile configuring the recommended installation path
 cmake .. -DCMAKE_INSTALL_PREFIX=/opt/unitree_robotics
 
-# Instalar (requiere sudo)
+# Install (requires sudo)
 sudo make install
 ```
 
-Para hacer build de los ejemplos del repositorio:
+To build the examples included in the repository:
 
-```
+```bash
 cd build
 cmake ..
 make
 ```
 
-## 💻 Instalación SDK Python
+---
 
-Usamos nuestros propios Forks en la organización para asegurar estabilidad.
+## 💻 Python SDK Installation
 
-Lo clonamos en "~" pero luego lo podemos mover si queremos.
+We also use **our own forks** in the organization to ensure stability.
 
-```
+We clone it into `~`, but it can be moved later if desired.
+
+```bash
 cd ~
 git clone https://github.com/UAI-BIOARABA/unitree_sdk2_python.git
 ```
 
-Creamos un entorno virtual con Conda y lo instalamos:
+Create a **Conda virtual environment** and install it:
 
-```
-# Crear entorno
+```bash
+# Create environment
 conda create --name nombre-entorno python=3.10.12
 
-# Activar en cada terminal
+# Activate in every terminal
 conda activate nombre-entorno
 
-# Instalar dependencias del SDK en modo editable
+# Install SDK dependencies in editable mode
 cd unitree_sdk2_python
 
-# Instalar las dependencias de compilación necesarias (por si acaso)
+# Install required build dependencies (just in case)
 pip install setuptools wheel
 pip install -e .
 
-# Instalar dependencias adicionales
-pip install matplotlib pydot    # Las instalamos ahora porque si no puede dar error
+# Install additional dependencies
+pip install matplotlib pydot    # Installing them now prevents potential errors
 ```
 
-Ya podemos probar los ejemplos incluidos en el repositorio lanzándolos en una terminal, ya sea en el robot real o en el simulador MuJoCo.
+You can now test the examples included in the repository by running them in a terminal, either on the **real robot** or in the **MuJoCo simulator**.

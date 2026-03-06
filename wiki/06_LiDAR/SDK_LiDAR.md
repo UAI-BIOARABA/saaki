@@ -1,57 +1,72 @@
-# 🧩 Guía de instalación y configuración del SDK del LiDAR
+# 🧩 Installation and Configuration Guide for the LiDAR SDK
 
-Este documento describe **cómo instalar el SDK oficial**, **configurar todas las dependencias necesarias** y **garantizar que no existan conflictos** de instalación o funcionamiento en ningún equipo.
+This document describes **how to install the official SDK**, **configure all the required dependencies**, and **ensure there are no installation or runtime conflicts** on any machine.
 
-El unitree G1 tiene un LiDAR livox Mid-360, el cual tiene su SDK y progama de visualización propio.
-- [Web oficial](https://www.livoxtech.com/mid-360)
+The **Unitree G1** includes a **Livox Mid-360 LiDAR**, which has its own SDK and visualization software.
 
-Hay 3 formas de visualizar los datos del LiDAR:
-- Mediante la aplicación viewer
-- Mediante su SDK
-- Mediante ROS2
+- [Official website](https://www.livoxtech.com/mid-360)
+
+There are **three ways to visualize LiDAR data**:
+
+- Using the **Viewer application**
+- Using the **SDK**
+- Using **ROS2**
 
 ---
 
-## 🧠 Requisitos previos
+## 🧠 Prerequisites
 
-Asegurate de tener un PC con Ubuntu y el Unitree G1 cerca.
+Make sure you have a **PC with Ubuntu** and the **Unitree G1 nearby**.
 
-Asumimos el uso de Ubuntu 22.04 en el PC y ROS2 Humble.
+We assume the use of **Ubuntu 22.04 on the PC and ROS2 Humble**.
 
-Asegúrate de tener actualizados ambos sistemas:
+Ensure both systems are updated:
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-Asegúrate de saber conectarte al robot como ya hemos hecho varias veces, es lo mismo solo que la IP del LiDAR es 192.168.123.120, puedes hacerle ping para comprobar que funciona.
+Make sure you know how to connect to the robot as we have done several times before. The process is the same, but the **LiDAR IP address is `192.168.123.120`**. You can ping it to verify the connection.
 
-## 💻 Instalación LivoxViewer2
+---
 
-1. Navega a la web oficial y entra en [downloads](https://www.livoxtech.com/mid-360/downloads) y descarga "Livox Viewer 2 - Ubuntu".
-2. Descomprime el archivo descargado (Puedes cambiarle el nombre a uno más corto).
-3. Entra a la carpeta y ejecuta el comando LivoxViewer2.sh:
+## 💻 Installing LivoxViewer2
 
-```
-cd LivoxViewer2 # O el nombre que le hayas puesto
+1. Go to the official website and open the downloads section:  
+   https://www.livoxtech.com/mid-360/downloads  
+   Download **"Livox Viewer 2 - Ubuntu"**.
+
+2. Extract the downloaded file (you may rename it to a shorter name).
+
+3. Enter the folder and run the script:
+
+```bash
+cd LivoxViewer2 # Or whatever name you gave the folder
 source LivoxViewer2.sh
 ```
 
-4. Si la red está bien configurada, el software detectará automáticamente el LiDAR Mid-360.
-5. Dale al interruptor de "Connect" y luego al botón de "Play" (si no se ha hecho solo al lanzarse). Deberías ver la reconstrucción 3D de tu entorno. 
+4. If the network is correctly configured, the software will automatically detect the **Mid-360 LiDAR**.
 
-## 💻 Instalación SDK
+5. Turn on the **"Connect"** switch and press **"Play"** (sometimes it starts automatically).  
+   You should now see a **3D reconstruction of your environment**.
 
-Podrás ver los SDKs y repositorios en [su GitHub oficial](https://github.com/Livox-SDK).
+---
 
-1. Instala CMake si no lo tienes:
+## 💻 SDK Installation
+
+You can find the SDKs and repositories in the **official GitHub organization**:
+
+https://github.com/Livox-SDK
+
+### 1. Install CMake if needed
+
+```bash
+sudo apt install cmake
 ```
-$ sudo apt install cmake
-```
 
-2. Compila e instala Livox-SDK2:
+### 2. Compile and install Livox-SDK2
 
-```
+```bash
 mkdir -p ~/ws_livox/src
 cd ws_livox
 git clone https://github.com/Livox-SDK/Livox-SDK2.git
@@ -62,55 +77,94 @@ cmake .. && make -j
 sudo make install
 ```
 
-3. Nota:
-La biblioteca compartida y la biblioteca estática generadas se instalan en el directorio "/usr/local/lib". Los archivos de encabezado se instalan en el directorio "/usr/local/include". Tips: Elimina Livox SDK2:
+### 3. Note
+
+The generated **shared and static libraries** will be installed in:
 
 ```
+/usr/local/lib
+```
+
+Header files will be installed in:
+
+```
+/usr/local/include
+```
+
+If you ever need to **remove Livox SDK2**, run:
+
+```bash
 sudo rm -rf /usr/local/lib/liblivox_lidar_sdk_*
 sudo rm -rf /usr/local/include/livox_lidar_*
 ```
 
-4. Ve a la carpeta samples/livox_lidar_quick_start y edita el archivo mid360_config.json (IP del Host = Tu PC, IP del LiDAR = 192.168.123.120).
+### 4. Configure the example
 
-5. Ya puedes ejecutar un ejemplo o empezar a desarrollar tus propios programas.
-
-## 💻 Instalación SDK ROS2
-
-Asegúrate de tener bien instalado ROS2 Humble.
-
-1. Abre tu terminal y ejecuta:
+Go to:
 
 ```
+samples/livox_lidar_quick_start
+```
+
+Edit the file:
+
+```
+mid360_config.json
+```
+
+Set:
+
+- **Host IP = your PC**
+- **LiDAR IP = 192.168.123.120**
+
+### 5. Run an example
+
+You can now run the provided examples or start developing your own programs.
+
+---
+
+## 💻 ROS2 SDK Installation
+
+Make sure **ROS2 Humble** is correctly installed.
+
+### 1. Create the workspace
+
+```bash
 mkdir -p ~/ws_livox/src
 ```
 
-2. Instalar Livox-SDK2:
+### 2. Install Livox-SDK2
 
-Simplemente sigue los pasos del apartado anterior.
+Follow the steps from the previous section.
 
-3. Clonar Livox ROS Driver 2:
+### 3. Clone the Livox ROS Driver 2
 
-```
+```bash
 cd ~/ws_livox/src
 git clone https://github.com/Livox-SDK/livox_ros_driver2.git
 ```
 
-4. Compilar el Driver para ROS2 Humble:
+### 4. Compile the driver for ROS2 Humble
 
-```
+```bash
 cd ~/ws_livox/src/livox_ros_driver2
 source /opt/ros/humble/setup.sh
 ./build.sh humble
 ```
 
-5. Modificar el archivo de Configuración
+---
 
-```
+## 🧩 Modify the configuration file
+
+Open:
+
+```bash
 gedit ~/ws_livox/src/livox_ros_driver2/config/MID360_config.json
 ```
 
-Cambia estas lineas:
-```
+Modify the following fields:
+
+```json
 {
   "lidar_summary_info" : {
     "lidar_type": 8
@@ -124,13 +178,13 @@ Cambia estas lineas:
       "log_data_port": 56500
     },
     "host_net_info" : {
-      "cmd_data_ip" : "192.168.123.x",  <-- PON AQUÍ LA IP DE TU ORDENADOR
+      "cmd_data_ip" : "192.168.123.x",
       "cmd_data_port": 56101,
-      "push_msg_ip": "192.168.123.x",   <-- PON AQUÍ LA IP DE TU ORDENADOR
+      "push_msg_ip": "192.168.123.x",
       "push_msg_port": 56201,
-      "point_data_ip": "192.168.123.x", <-- PON AQUÍ LA IP DE TU ORDENADOR
+      "point_data_ip": "192.168.123.x",
       "point_data_port": 56301,
-      "imu_data_ip" : "192.168.123.x",  <-- PON AQUÍ LA IP DE TU ORDENADOR
+      "imu_data_ip" : "192.168.123.x",
       "imu_data_port": 56401,
       "log_data_ip" : "",
       "log_data_port": 56501
@@ -138,7 +192,7 @@ Cambia estas lineas:
   },
   "lidar_configs" : [
     {
-      "ip" : "192.168.123.120",   <-- ESTA ES LA IP DEL LIDAR DEL UNITREE G1
+      "ip" : "192.168.123.120",
       "pcl_data_type" : 1,
       "pattern_mode" : 0,
       "extrinsic_parameter" : {
@@ -154,18 +208,31 @@ Cambia estas lineas:
 }
 ```
 
-6. Recompila por seguridad:
+Replace **192.168.123.x** with **the IP address of your computer**.
+
+The LiDAR IP **must remain**:
 
 ```
+192.168.123.120
+```
+
+---
+
+## 🔄 Recompile for safety
+
+```bash
 cd ~/ws_livox
 rm -rf build/ install/ log/
 colcon build --symlink-install --cmake-args -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble
 source install/setup.bash
 ```
 
-7. Lanza el driver
+---
 
-```
+## ▶️ Launch the driver
+
+```bash
 ros2 launch livox_ros_driver2 rviz_MID360_launch.py
 ```
 
+This will launch **RViz** and display the **real-time point cloud from the Mid-360 LiDAR**.

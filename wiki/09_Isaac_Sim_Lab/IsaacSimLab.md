@@ -1,39 +1,50 @@
-# 🧩 Guía de instalación y configuración de Isaac Sim (Ubuntu)
+# 🧩 Isaac Sim Installation and Configuration Guide (Ubuntu)
 
-Este documento describe **cómo instalar Isaac Sim**, **configurar todas las dependencias necesarias** y **garantizar que el entorno de desarrollo sea completamente reproducible** en otro equipo.
+This document describes **how to install Isaac Sim**, **configure all required dependencies**, and **ensure that the development environment is fully reproducible** on another machine.
 
 ---
 
-## 🧠 Requisitos previos
+## 🧠 Prerequisites
 
-1. Asegúrate de tener actualizado tu sistema:
+1. Make sure your system is updated:
 
-``` bash
+```bash
 sudo apt update && sudo apt upgrade -y
 ```
-2. GPU NVIDIA + drivers funcionando. Si ```nvidia-smi``` no funciona, instala/actualiza el driver desde “Software & Updates → Additional Drivers” (o el método que uses normalmente). Comprueba con:
+
+2. **NVIDIA GPU with working drivers.**  
+If `nvidia-smi` does not work, install or update the driver from:
+
+```
+Software & Updates → Additional Drivers
+```
+
+(or using your usual method).
+
+Check with:
 
 ```bash
 nvidia-smi
 ```
 
-3. Conda instalado. El script usa ```conda create``` y ```conda activate```, así que necesitas Miniconda/Miniforge/Anaconda ya instalado y disponible en tu ```PATH```.
+3. **Conda installed.**  
+The script uses `conda create` and `conda activate`, so you need **Miniconda, Miniforge, or Anaconda** installed and available in your `PATH`.
 
-4. Paquetes base útiles:
+4. Useful base packages:
 
 ```bash
-# (El script también instala varios de estos, pero es buena idea tenerlos.)
+# (The script will install many of these too, but it is good to have them.)
 sudo apt update
 sudo apt install -y git git-lfs openssl cmake build-essential unzip
 ```
 
 ---
 
-## 💻 Instalación de Isaac Sim
+# 💻 Isaac Sim Installation
 
-### 1. Clona el repo con submódulos
+## 1. Clone the repository with submodules
 
-El script comprueba que exista la carpeta ```teleimager```, que viene como submódulo, así que clona así:
+The script checks that the folder `teleimager` exists, which comes as a **submodule**, so clone it like this:
 
 ```bash
 cd ~
@@ -41,69 +52,131 @@ git clone --recurse-submodules https://github.com/unitreerobotics/unitree_sim_is
 cd unitree_sim_isaaclab
 ```
 
-Si ya lo clonaste sin submódulos:
+If you already cloned it **without submodules**:
 
 ```bash
 cd ~/unitree_sim_isaaclab
 git submodule update --init --depth 1
 ```
 
-### 2. Ejecuta el auto-setup para Isaac Sim 5.1
+---
 
-Desde la raíz del repo:
+# 2. Run the auto-setup for Isaac Sim 5.1
+
+From the root of the repository:
 
 ```bash
 chmod +x auto_setup_env.sh
 bash auto_setup_env.sh 5.1 unitree_sim_env cu126
 ```
 
-Qué hace exactamente este script (importante para entender y depurar):
+### What this script does
 
-- Instala deps Ubuntu (```cmake```, ```build-essential```, ```openssl```, ```git-lfs```, ```unzip```, …).
+Understanding this is important for debugging.
 
-- Clona repos “hermanos” en el directorio padre (```../IsaacLab```, ```../cyclonedds```, ```../unitree_sdk2_python```).
+The script:
 
-- Inicializa submódulos del repo (teleimager).
+- Installs Ubuntu dependencies  
+  (`cmake`, `build-essential`, `openssl`, `git-lfs`, `unzip`, etc.)
 
-- Genera certificados ```key.pem/cert.pem``` y los copia a ```~/.config/xr_teleoperate/``` (te pedirá pulsar Enter varias veces en la creación del cert).
+- Clones related repositories in the **parent directory**:
 
-- Descarga assets llamando a ```fetch_assets.sh``` (usa **git-lfs** y clona desde HuggingFace un zip grande, lo descomprime y deja ```assets/``` en el repo).
+```
+../IsaacLab
+../cyclonedds
+../unitree_sdk2_python
+```
 
-- Compila ```CycloneDDS``` y define ```CYCLONEDDS_HOME```.
+- Initializes repository submodules (`teleimager`)
 
-- Crea un entorno conda con Python 3.11 (requisito para Isaac Sim 5.x) e instala:
+- Generates **SSL certificates** (`key.pem` / `cert.pem`) and copies them to:
 
-    - PyTorch (por defecto para 5.1 usa ```cu126```)
+```
+~/.config/xr_teleoperate/
+```
 
-    - Isaac Sim 5.1.0 vía pip: ```isaacsim[all,extscache]==5.1.0```
+You will need to press **Enter several times** when generating the certificate.
 
-    - Isaac Lab (```./isaaclab.sh --install```)
+- Downloads **assets** using `fetch_assets.sh`  
+  (uses **git-lfs** and downloads a large zip from **HuggingFace**, extracts it and creates the `assets/` folder in the repo)
 
-    - ```unitree_sdk2_python``` editable
+- Compiles **CycloneDDS** and defines:
 
-    - requirements del repo (pyzmq, onnxruntime, etc.) y ```teleimager``` editable
+```
+CYCLONEDDS_HOME
+```
 
-    - Aplica un “patch” instalando ```libstdcxx-ng``` desde conda-forge (para 5.0/5.1)
+- Creates a **Conda environment with Python 3.11**  
+  (required for **Isaac Sim 5.x**)
 
-*Nota: El propio Isaac Lab deja claro que Isaac Sim 5.x requiere Python 3.11.*
+- Installs:
 
-### 3. Asegura variables de entorno (recomendado)
+    - **PyTorch** (for 5.1 it uses `cu126` by default)
+    - **Isaac Sim 5.1.0** via pip:
 
-El script hace export CYCLONEDDS_HOME=... pero eso vive solo en esa terminal. Para que siempre esté al activar el entorno:
+```
+isaacsim[all,extscache]==5.1.0
+```
+
+    - **Isaac Lab** via:
+
+```
+./isaaclab.sh --install
+```
+
+    - `unitree_sdk2_python` in **editable mode**
+
+    - repository requirements (`pyzmq`, `onnxruntime`, etc.)
+
+    - `teleimager` in editable mode
+
+- Applies a **patch installing `libstdcxx-ng` from conda-forge**  
+  (required for Isaac Sim **5.0 / 5.1** compatibility)
+
+**Important:** Isaac Lab explicitly states that **Isaac Sim 5.x requires Python 3.11.**
+
+---
+
+# 3. Ensure environment variables (recommended)
+
+The script runs:
+
+```
+export CYCLONEDDS_HOME=...
+```
+
+but that variable only exists in that terminal.
+
+To make it permanent when activating the conda environment:
 
 ```bash
 conda activate unitree_sim_env
 mkdir -p "$CONDA_PREFIX/etc/conda/activate.d"
+
 cat > "$CONDA_PREFIX/etc/conda/activate.d/unitree_dds.sh" << 'EOF'
 export CYCLONEDDS_HOME="$HOME/cyclonedds/install"
 EOF
 ```
 
-*(Ajusta la ruta si tu ```cyclonedds``` quedó en otro sitio; el script lo clona en el padre del repo: ```~/cyclonedds``` si estabas en ```~/unitree_sim_isaaclab```.)*
+Adjust the path if `cyclonedds` was cloned somewhere else.
 
-### 4. Ejecuta una demo del simulador
+Normally the script clones it in the **parent folder of the repo**, so if the repo is in:
 
-Activa el entorno y lanza una tarea:
+```
+~/unitree_sim_isaaclab
+```
+
+then CycloneDDS will be in:
+
+```
+~/cyclonedds
+```
+
+---
+
+# 4. Run a simulator demo
+
+Activate the environment and launch a task:
 
 ```bash
 conda activate unitree_sim_env
@@ -117,15 +190,45 @@ python sim_main.py \
   --robot_type g129
 ```
 
-Parámetros útiles (tal cual README):
+---
 
-```--task```: nombre de tarea (hay varias: pick/place, stack, move wholebody…)
+# Useful parameters (from the README)
 
-```--enable_dex1_dds``` / ```--enable_dex3_dds```: DDS para gripper o mano Dex3
+`--task`  
+Name of the task. Examples include:
 
-```--robot_type```: ```g129``` (G1 29DoF), o H1-2 (27DoF) según tarea
+- pick/place
+- stacking
+- whole-body movement
 
-```--no_render```: sin ventana, con streaming WebRTC (más típico en Docker/remoto)
+`--enable_dex1_dds` / `--enable_dex3_dds`  
+Enable DDS communication for the **Dex1 gripper** or **Dex3 hand**.
 
-*Tip visual: cuando arranca la escena, para ver la vista principal en Isaac Sim, el README indica seleccionar:*
-```PerspectiveCamera -> Cameras -> PerspectiveCamera.```
+`--robot_type`
+
+```
+g129
+```
+
+G1 with **29 DoF**
+
+or
+
+```
+H1-2
+```
+
+27 DoF humanoid (depending on the task).
+
+`--no_render`  
+Runs without a window and streams via **WebRTC** (common in Docker or remote setups).
+
+---
+
+# Visual tip
+
+When the scene starts, to view the main camera in Isaac Sim select:
+
+```
+PerspectiveCamera → Cameras → PerspectiveCamera
+```
