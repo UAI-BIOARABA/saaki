@@ -3,13 +3,13 @@
 <h1> PROYECTO SAAKI - UNITREE G1 EDU </h1>
 
 <p>
-  <a href="README.md">🇬🇧 English</a> |
-  <a href="README_es.md">🇪🇸 Español</a>
+  <a href="README.md">English</a> |
+  <a href="README_es.md">Español</a>
 </p>
 
 <img src="wiki/media/welcome_img.jpeg" alt="Bienvenida" width="720"/>
 
-*Nuestro robot humanoide Unitree G1 EDU U3: Saaki*
+*Nuestro robot humanoide Unitree G1 EDU U3, apodado 'Saaki', igual que el proyecto.*
 
 </div>
 
@@ -94,10 +94,10 @@ Para ver parte del trabajo que vamos desarrollando
 | 16. | **Reconocimiento de objetos**         | Lograr reconocer objetos con la cámara (YOLO V-?)   | 05/04/2026   | 13/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
 | 17. | **Integración con ROS2**              | Integrar el reconocimiento de objetos con ROS2      | 13/02/2026   | 28/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
 | 18. | **Teleoperación**                     | Lograr la teleoperación en simulación y realidad    | 01/03/2026   | 14/02/2026 | 🔄 En curso   | 🟨🟨🟨🟨 90%  |
-| 19. | **Imitation Learning**                | Aprendizaje por imitación para manipular objetos    | 14/03/2026   | 15/04/2026 | 🔄 En curso   | 🟨🟨🟨🟨 10%  |
-| 20. | **Reinforcement Learning**            | Aprendizaje por refuerzo para locomoción            | 16/04/2026   | 01/06/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
-| 21. | **VLA / WMA**                         | Experimentación con VLA y WMA                       | 01/06/2026   | 19/06/2026 | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
-| 21. | **Conversaciones localmente**         | Integrar con un LLM localmente                      |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
+| 19. | **Imitation Learning**                | Aprendizaje por imitación para manipular objetos    | 14/03/2026   | 15/04/2026 | 🔄 En curso   | 🟨🟨🟨🟨 25%  |
+| 20. | **Reinforcement Learning**            | Aprendizaje por refuerzo para locomoción            | 16/04/2026   | 01/06/2026 | 🔄 En curso   | 🟨🟨🟨🟨 25%  |
+| 21. | **VLA / WMA**                         | Experimentación con VLA y WMA                       | 01/06/2026   | 19/06/2026 | 🔄 En curso   | 🟨🟨🟨🟨 10%  |
+| 21. | **Conversaciones localmente**         | Integrar con un LLM localmente                      | 20/06/2026   | ??/??/???? | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
 | 23. | **Navegación en interiores**          | Lograr que el robot navegue en interiores           |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
 | 24. | **Programación del mando**            | Programar el mando a nuestro gusto                  |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
 | 25. | **Movimientos quirúrgicos**           | Lograr movimientos más finos                        |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
