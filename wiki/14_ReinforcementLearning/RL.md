@@ -30,7 +30,7 @@ conda activate unitree_rl
 pip install -e .
 ```
 
-**Requires **Isaac Lab** properly installed beforehand.**
+Requires **Isaac Lab** properly installed beforehand.
 
 ---
 
