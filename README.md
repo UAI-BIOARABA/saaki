@@ -3,8 +3,10 @@
 <h1> SAAKI PROJECT - UNITREE G1 EDU </h1>
 
 <p align="center">
+
 [![Language: English](https://img.shields.io/badge/Language-English-0A66C2?logo=github)](README.md)
 [![Idioma: Español](https://img.shields.io/badge/Idioma-Español-E34F26?logo=github)](README_es.md)
+
 </p>
 
 <img src="wiki/media/welcome_img.jpeg" alt="Welcome" width="720"/>
