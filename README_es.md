@@ -107,7 +107,13 @@ Para ver parte del trabajo que vamos desarrollando
 ## Descargo de responsabilidad
 
 Este software y los materiales asociados se proporcionan “tal cual”, sin garantías de ningún tipo, ni expresas ni implícitas, incluyendo —pero no limitándose a— garantías de comercialización, idoneidad para un propósito particular o ausencia de errores.
-
+ 
 Los/as autores/as y Bioaraba – Instituto de Investigación Sanitaria no asumen responsabilidad alguna por el uso, la redistribución o la modificación de este repositorio ni por los posibles daños directos o indirectos derivados de su utilización.
+ 
+Este proyecto tiene fines exclusivos de investigación y/o docencia. No está destinado a su uso clínico, diagnóstico, terapéutico ni asistencial, ni sustituye herramientas certificadas ni la evaluación profesional en entornos sanitarios.
+ 
+Sin perjuicio de lo anterior, el uso del software y del sistema robótico se realizará bajo la responsabilidad de la persona usuaria, quien deberá verificar previamente su idoneidad para el fin concreto y adoptar todas las medidas de seguridad, supervisión y control necesarias en función del entorno y condiciones de uso.
 
-Este proyecto tiene fines exclusivos de investigación y/o docencia.
+La persona usuaria será responsable de las consecuencias derivadas de un uso inadecuado, negligente o no conforme, incluyendo los posibles daños personales o materiales que pudieran producirse.
+
+En la máxima medida permitida por la legislación aplicable, Bioaraba no asumirá responsabilidad por daños derivados del uso del software o sistema robótico cuando estos provengan de una implementación defectuosa, una supervisión insuficiente o una decisión de uso inapropiada por parte de la persona usuaria, así como por la inobservancia de las medidas de seguridad recomendadas.
