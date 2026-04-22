@@ -43,7 +43,7 @@ To see part of the work we are developing:
 
 - **Juan Fernández**  
   
-  🎯 *Coordinator of the IIS BIOARABA Innovation Platform*  
+  🎯 *Innovation Support Unit Coordinator – Bioaraba Health Research Institute*  
 
   🏫 *[IIS BIOARABA - Innovation](https://www.bioaraba.org/plataformas-de-apoyo/plataforma-innovacion/)*
 
