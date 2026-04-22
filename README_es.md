@@ -43,7 +43,7 @@ Para ver parte del trabajo que vamos desarrollando
 
 - **Juan Fernández**  
   
-  🎯 *Coordinador de la Plataforma de Innovación del IIS BIOARABA*  
+  🎯 *Coordinador de la Plataforma de Innovación - Instituto de Investigación Sanitaria BIOARABA (IIS BIOARABA)*
 
   🏫 *[IIS BIOARABA - Innovación](https://www.bioaraba.org/plataformas-de-apoyo/plataforma-innovacion/)*
 
