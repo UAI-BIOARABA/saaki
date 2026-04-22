@@ -106,8 +106,14 @@ To see part of the work we are developing:
 
 ## Disclaimer
 
-This software and associated materials are provided "as is", without warranties of any kind, either express or implied, including—but not limited to—warranties of merchantability, fitness for a particular purpose, or absence of errors.
+This software and the accompanying materials are provided “as is,” without warranties of any kind, either express or implied, including—but not limited to—warranties of merchantability, fitness for a particular purpose, or absence of errors.
 
-The authors and Bioaraba – Instituto de Investigación Sanitaria assume no responsibility for the use, redistribution, or modification of this repository, nor for any direct or indirect damages arising from its use.
+The authors and Bioaraba – Health Research Institute assume no responsibility for the use, redistribution, or modification of this repository, nor for any direct or indirect damages arising from its use.
 
-This project is for research and/or educational purposes only.
+This project is intended exclusively for research and/or educational purposes. It is not intended for clinical, diagnostic, therapeutic, or healthcare use, nor does it replace certified tools or professional judgment in healthcare settings.
+
+Notwithstanding the foregoing, use of the software and the robotic system shall be at the user’s own risk. The user must verify its suitability for the intended purpose and adopt all necessary safety, supervision, and control measures based on the environment and conditions of use.
+
+The user shall be responsible for any consequences arising from improper, negligent, or non-compliant use, including any personal injury or property damage that may occur.
+
+To the fullest extent permitted by applicable law, Bioaraba shall not be liable for any damages arising from the use of the software or robotic system when such damages result from defective implementation, insufficient supervision, inappropriate use decisions by the user, or failure to observe recommended safety measures.
