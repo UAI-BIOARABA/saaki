@@ -95,9 +95,9 @@ To see part of the work we are developing:
 | 15. | **Access camera**                     | Access camera data without errors                   | 04/02/2026   | 05/02/2026 | ✅ Completed   | 🟩🟩🟩🟩 100% |
 | 16. | **Object recognition**                | Recognize objects with the camera (YOLO V-?)        | 05/04/2026   | 13/02/2026 | ✅ Completed   | 🟩🟩🟩🟩 100% |
 | 17. | **Integration with ROS2**             | Integrate object recognition with ROS2              | 13/02/2026   | 28/02/2026 | ✅ Completed   | 🟩🟩🟩🟩 100% |
-| 18. | **Teleoperation**                     | Achieve teleoperation in simulation and reality     | 01/03/2026   | 14/02/2026 | 🔄 In progress | 🟨🟨🟨🟨 90%  |
-| 19. | **Imitation Learning**                | Imitation learning for object manipulation          | 14/03/2026   | 15/04/2026 | 🔄 In progress | 🟨🟨🟨🟨 25%  |
-| 20. | **Reinforcement Learning**            | Reinforcement learning for locomotion               | 16/04/2026   | 01/06/2026 | 🔄 In progress | 🟨🟨🟨🟨 25%  |
+| 18. | **Teleoperation**                     | Achieve teleoperation in simulation and reality     | 01/03/2026   | 14/02/2026 | ✅ Completed   | 🟩🟩🟩🟩 100% |
+| 19. | **Imitation Learning**                | Imitation learning for object manipulation          | 14/03/2026   | 15/04/2026 | 🔄 In progress | 🟨🟨🟨🟨 90%  |
+| 20. | **Reinforcement Learning**            | Reinforcement learning for locomotion               | 16/04/2026   | 01/06/2026 | 🔄 In progress | 🟨🟨🟨🟨 75%  |
 | 21. | **VLA / WMA**                         | Experimentation with VLA and WMA                    | 01/06/2026   | 19/06/2026 | 🔄 In progress | 🟨🟨🟨🟨 10%  |
 | 21. | **Local conversations**               | Integrate with a local LLM                          | 20/06/2026   | ??/??/???? | ⏳ Pending     | 🟥🟥🟥🟥 0%   |
 | 23. | **Indoor navigation**                 | Make the robot navigate indoors                     |              |            | 🔮 Future      | ⬜⬜⬜⬜      |
