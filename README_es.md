@@ -4,8 +4,7 @@
 
 <p align="center">
 
-[![Language: English](https://img.shields.io/badge/Language-English-0A66C2?logo=github)](README.md)
-[![Idioma: Español](https://img.shields.io/badge/Idioma-Español-E34F26?logo=github)](README_es.md)
+[English ](README.md)|[ Español](README_es.md)
 
 </p>
 
@@ -74,35 +73,28 @@ Para ver parte del trabajo que vamos desarrollando
 
 ## 📅 Cronograma del Proyecto
 
-| #   | Fase                                  | Actividad                                           | Fecha Inicio | Fecha Fin  | Estado        | Progreso      |
-| --- | ------------------------------------- | --------------------------------------------------- | ------------ | ---------- | ------------  | ------------- |
-| 0.  | **Investigación**                     | Investigación sobre el robot y sus capacidades      | 15/09/2025   | --/--/---- | ♻️ Permanente |               |
-| 0.  | **WIKI**                              | Generacion de wiki y repositorios en Github         | 15/09/2025   | --/--/---- | ♻️ Permanente |               |
-| 1.  | **Análisis y estado del arte**        | Analizar hardware, software y estado del arte       | 15/09/2025   | 06/10/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 2.  | **APP**                               | APP para recogida de 2 encuestas en primer proyecto | 24/09/2025   | 19/10/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 3.  | **AUDIOS EN PYTHON**                  | Generación de audios con Python                     | 20/10/2025   | 27/10/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 4.  | **WSL**                               | Configuración de WSL en Windows 11                  | 27/10/2025   | 03/11/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 5.  | **UBUNTU**                            | Configuración Ubuntu con dualboot Windows 11        | 03/11/2025   | 04/11/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 6.  | **Instalación de programas**          | Instalacion de programas y pruebas                  | 07/11/2025   | 12/11/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 7.  | **Investigar ecosistema desarrollo**  | Investigar las areas de desarrollo del robot        | 12/11/2025   | 18/11/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 8.  | **Aprender SDK**                      | Instalar, entender y usar el SDK                    | 18/11/2025   | 15/12/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 9.  | **Aprender unitree_ros2**             | Instalar, entender y usar el repo de ROS2           | 15/12/2025   | 18/12/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 10. | **Arreglar unitree_ros2**             | Arreglar el error que rompe código C++ del SDK      | 18/12/2025   | 25/12/2025 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 11. | **Conexión G1**                       | Lograr conectarnos sin errores al robot             | 07/01/2026   | 08/01/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 12. | **Low level control**                 | Lograr una DEMO funcional en el robot a bajo nivel  | 08/01/2026   | 15/01/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 13. | **High level control**                | Lograr una DEMO funcional en el robot a alto nivel  | 15/01/2026   | 23/01/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 14. | **Movimiento de manos**               | Mover los dedos de las manos                        | 23/01/2026   | 04/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 15. | **Acceder a cámara**                  | Lograr acceder sin errores a los datos de la cámara | 04/02/2026   | 05/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 16. | **Reconocimiento de objetos**         | Lograr reconocer objetos con la cámara (YOLO V-?)   | 05/04/2026   | 13/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 17. | **Integración con ROS2**              | Integrar el reconocimiento de objetos con ROS2      | 13/02/2026   | 28/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 18. | **Teleoperación**                     | Lograr la teleoperación en simulación y realidad    | 01/03/2026   | 14/02/2026 | ✅ Completado | 🟩🟩🟩🟩 100% |
-| 19. | **Imitation Learning**                | Aprendizaje por imitación para manipular objetos    | 14/03/2026   | 15/04/2026 | 🔄 En curso   | 🟨🟨🟨🟨 90%  |
-| 20. | **Reinforcement Learning**            | Aprendizaje por refuerzo para locomoción            | 16/04/2026   | 01/06/2026 | 🔄 En curso   | 🟨🟨🟨🟨 75%  |
-| 21. | **VLA / WMA**                         | Experimentación con VLA y WMA                       | 01/06/2026   | 19/06/2026 | 🔄 En curso   | 🟨🟨🟨🟨 10%  |
-| 21. | **Conversaciones localmente**         | Integrar con un LLM localmente                      | 20/06/2026   | ??/??/???? | ⏳ Pendiente  | 🟥🟥🟥🟥 0%   |
-| 23. | **Navegación en interiores**          | Lograr que el robot navegue en interiores           |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
-| 24. | **Programación del mando**            | Programar el mando a nuestro gusto                  |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
-| 25. | **Movimientos quirúrgicos**           | Lograr movimientos más finos                        |              |            | 🔮 Futuro     | ⬜⬜⬜⬜      |
+| #   | Fase                                  | Actividad                                           | Fecha inicio | Fecha fin  | Estado         | Progreso        |
+| --- | ------------------------------------- | --------------------------------------------------- | ------------ | ---------- | -------------- | --------------- |
+| 0.  | **Investigación**                     | Investigación sobre el robot y sus capacidades      | 15/09/2025   | --/--/---- | ♻️ En curso    |                 |
+| 0.  | **WIKI**                              | Creación de la Wiki y repositorios en GitHub        | 15/09/2025   | --/--/---- | ♻️ En curso    |                 |
+| 1.  | **Análisis y estado del arte**        | Analizar hardware, software y estado del arte       | 15/09/2025   | 13/10/2025 | ✅ Completado  | 🟩🟩🟩🟩 100% |
+| 2.  | **APP encuestas**                     | Aplicación para recopilar 2 encuestas               | 13/10/2025   | 03/11/2025 | ✅ Completado  | 🟩🟩🟩🟩 100% |
+| 3.  | **Programa de audios**                | Generación de audio con Python                      | 03/11/2025   | 10/11/2025 | ✅ Completado  | 🟩🟩🟩🟩 100% |
+| 4.  | **Aprender e instalar SDK**           | Instalar, entender y usar el SDK                    | 10/11/2025   | 01/12/2025 | ✅ Completado  | 🟩🟩🟩🟩 100% |
+| 5.  | **Control de bajo nivel**             | Lograr una DEMO funcional de bajo nivel en el robot | 01/12/2025   | 05/01/2026 | ✅ Completado  | 🟩🟩🟩🟩 100% |
+| 6.  | **Control de alto nivel**             | Lograr una DEMO funcional de alto nivel en el robot | 05/01/2026   | 02/02/2026 | ✅ Completado  | 🟩🟩🟩🟩 100% |
+| 7.  | **Aprender e instalar ROS2**          | Instalar, entender y usar el repositorio ROS2       | 02/02/2026   | 16/02/2026 | ✅ Completado  | 🟩🟩🟩🟩 100% |
+| 8.  | **Desarrollo de paquetes ROS2**       | Desarrollar paquetes ROS2 para el robot             | 16/02/2026   | 02/03/2026 | ✅ Completado  | 🟩🟩🟩🟩 100% |
+| 9.  | **Aprender e instalar RL**            | Instalar, entender y usar el repositorio de RL      | 02/03/2026   | 30/03/2026 | ✅ Completado  | 🟩🟩🟩🟩 100% |
+| 10. | **Aprendizaje por refuerzo**          | Experimentación con aprendizaje por refuerzo        | 30/03/2026   | 13/04/2026 | ✅ Completado  | 🟩🟩🟩🟩 100% |
+| 11. | **Aprender e instalar IL**            | Instalar, entender y usar el repositorio de IL      | 13/04/2026   | 18/05/2026 | ✅ Completado  | 🟩🟩🟩🟩 100% |
+| 12. | **Teleoperación**                     | Lograr teleoperación en simulación y en realidad    | 27/04/2026   | 04/05/2026 | ✅ Completado  | 🟩🟩🟩🟩 100% |
+| 13. | **Aprendizaje por imitación**         | Experimentación con aprendizaje por imitación       | 18/05/2026   | 25/05/2026 | ✅ Completado  | 🟩🟩🟩🟩 100% |
+| 14. | **VLA / WMA**                         | Experimentación con VLA y WMA                       | 25/05/2026   | 19/06/2026 | 🔄 En progreso | 🟨🟨🟨🟨 10%  |
+| 15. | **Conversaciones locales**            | Integrar con un LLM local                           | 19/06/2026   | ??/??/???? | ⏳ Pendiente   | 🟥🟥🟥🟥 0%   |
+| 16. | **Navegación interior**               | Hacer que el robot navegue en interiores            |              |            | 🔮 Futuro      | ⬜⬜⬜⬜      |
+| 17. | **Programación del controlador**      | Programar el controlador según nuestras necesidades |              |            | 🔮 Futuro      | ⬜⬜⬜⬜      |
+| 28. | **Movimientos quirúrgicos**           | Conseguir movimientos más precisos                  |              |            | 🔮 Futuro      | ⬜⬜⬜⬜      |
 
 ---
 
