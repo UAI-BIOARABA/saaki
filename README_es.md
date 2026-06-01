@@ -4,7 +4,7 @@
 
 <p align="center">
 
-[English ](README.md)|[ Español](README_es.md)
+[English](README.md) | [Español](README_es.md)
 
 </p>
 
